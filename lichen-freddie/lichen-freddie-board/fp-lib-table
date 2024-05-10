@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lichen-faderbank")(type "KiCad")(uri "${KIPRJMOD}/lichen-faderbank.pretty")(options "")(descr ""))
+)
