@@ -256,7 +256,7 @@
     )
     (pin "1" (uuid 1ba358d5-5d82-4a18-acd8-d8bad8d5b2df))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "#PWR01") (unit 1)
         )
@@ -267,10 +267,10 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 82.55 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24070756-2ed7-40d4-9532-8a86815de592)
-    (property "Reference" "SW1" (at 82.55 113.03 0)
+    (property "Reference" "SW3" (at 82.55 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_SPDT" (at 82.55 110.49 0)
+    (property "Value" "SW_SPDT" (at 82.55 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_4ms_Switch:Switch_Toggle_SPDT_SubMini" (at 82.55 105.41 0)
@@ -283,9 +283,9 @@
     (pin "2" (uuid fa56f1f6-4164-4947-876d-84759397a3c8))
     (pin "3" (uuid 7ed01d14-9fcc-4bb3-876d-a655c44989d7))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
-          (reference "SW1") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -309,11 +309,11 @@
     (property "MPN" "WQP-WQP518MA" (at 60.96 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid b9d18a21-3815-40ed-925c-1a7c4cce36a5))
-    (pin "T" (uuid 8e5e4944-98d2-45ee-8153-e1a5b17559de))
-    (pin "TN" (uuid dd3da238-8b4f-4d7c-a00f-2d7051ddd762))
+    (pin "S" (uuid 310fc9be-cb05-4acf-b237-b110ee076306))
+    (pin "T" (uuid 70f15b5e-fd25-45a1-b2e6-187385c3af34))
+    (pin "TN" (uuid 5175b1c1-11ed-43c4-8a62-e77b0c8f04dd))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "J1") (unit 1)
         )
@@ -338,7 +338,7 @@
     )
     (pin "1" (uuid 5b4936ff-a512-4cb3-b301-9a054c873f84))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "#PWR02") (unit 1)
         )
@@ -363,7 +363,7 @@
     )
     (pin "1" (uuid 745e7c92-9cfc-4395-a404-7b2f28b8ee32))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "#PWR06") (unit 1)
         )
@@ -388,7 +388,7 @@
     )
     (pin "1" (uuid cc515af1-8c9b-4d94-9787-7b27602da119))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "#PWR04") (unit 1)
         )
@@ -399,10 +399,10 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 83.82 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86751ae0-5408-467a-9915-720f9b86c16a)
-    (property "Reference" "SW3" (at 83.82 74.93 0)
+    (property "Reference" "SW1" (at 83.82 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_SPDT" (at 83.82 72.39 0)
+    (property "Value" "SW_SPDT" (at 83.82 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "PCM_4ms_Switch:Switch_Toggle_SPDT_SubMini" (at 83.82 67.31 0)
@@ -415,9 +415,9 @@
     (pin "2" (uuid 8dc035a5-175d-48b8-b5ce-88b245485a97))
     (pin "3" (uuid 7a42765d-36fb-467d-978f-d69201d8509b))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
-          (reference "SW3") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -440,7 +440,7 @@
     )
     (pin "1" (uuid d7029977-079a-4940-80d2-71bf67ab8c88))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "#PWR05") (unit 1)
         )
@@ -466,11 +466,11 @@
     (property "MPN" "WQP-WQP518MA" (at 60.96 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid 5e098b75-434d-4a8a-8dad-f82c61a3adf6))
-    (pin "T" (uuid 80247f01-1434-4b23-91db-5668f5bdb423))
-    (pin "TN" (uuid 251848bc-cd97-45f7-9e03-e77a3c6bf16b))
+    (pin "S" (uuid a14f66a6-d63b-484b-a98a-5768d84837ce))
+    (pin "T" (uuid 910185b2-5574-4e63-b393-5ec702f5aacb))
+    (pin "TN" (uuid 363efd5d-d537-4243-9833-5875b2782593))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "J2") (unit 1)
         )
@@ -495,7 +495,7 @@
     )
     (pin "1" (uuid 10fc3e5c-465d-48f4-9c18-14e6d4ddebcc))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "#PWR03") (unit 1)
         )
@@ -522,7 +522,7 @@
     (pin "2" (uuid cb6c0f75-5d33-4aac-a801-9e48c23d36d3))
     (pin "3" (uuid 9bdcaf0c-1c4d-4171-a63e-a5f579860783))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "SW2") (unit 1)
         )
@@ -548,11 +548,11 @@
     (property "MPN" "WQP-WQP518MA" (at 109.22 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid c41fb939-fcc2-43a0-a15b-19102268d5ea))
-    (pin "T" (uuid 38806fc9-d97e-493d-948c-c361e2c80201))
-    (pin "TN" (uuid abe3acb5-2e82-45da-9b7d-2b232ad66ca0))
+    (pin "S" (uuid 46e9d651-fc65-4a43-b51e-7c3a75f58d0d))
+    (pin "T" (uuid 554baa65-663a-4dda-8b1b-cf1d93ec9563))
+    (pin "TN" (uuid 6cb69c1f-ae6e-4369-8458-0533cfe9641c))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "J6") (unit 1)
         )
@@ -578,11 +578,11 @@
     (property "MPN" "WQP-WQP518MA" (at 109.22 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid f551acde-c413-41d6-9055-a0b10436dbf0))
-    (pin "T" (uuid 86233d88-6603-487f-b147-7326d8265cfb))
-    (pin "TN" (uuid afcf2618-fb08-485e-9fa1-e6fb1fea3e1d))
+    (pin "S" (uuid 286da643-69bc-4ecb-bd68-04fe06d38f96))
+    (pin "T" (uuid 65f577b3-c00c-44e7-9328-3b456787c648))
+    (pin "TN" (uuid 494ccb30-e813-4dd7-bf52-4a22c7b9e98a))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "J4") (unit 1)
         )
@@ -608,11 +608,11 @@
     (property "MPN" "WQP-WQP518MA" (at 60.96 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid fd7f3073-eedb-4fd0-8fec-f210fedd4b1e))
-    (pin "T" (uuid a1596bfc-f833-4d8f-8afc-d88a5a15eff0))
-    (pin "TN" (uuid c7736109-4c2a-4e9f-a1c3-75b8974c3340))
+    (pin "S" (uuid df3404fc-b2be-4c27-94d9-63f01e406013))
+    (pin "T" (uuid ced2825e-e049-42c6-aeea-3595b31c6bd5))
+    (pin "TN" (uuid 2b5ccd48-c0f7-4555-ab79-aebaf8ebb477))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "J3") (unit 1)
         )
@@ -638,11 +638,11 @@
     (property "MPN" "WQP-WQP518MA" (at 109.22 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S" (uuid 74f7863e-3e01-4f37-b170-0167aceecea2))
-    (pin "T" (uuid 21e030d7-6169-47f2-b392-8e8fd952dc98))
-    (pin "TN" (uuid 6aa032c0-7bd8-4dd5-8e8f-779dc2e503de))
+    (pin "S" (uuid fc808d38-91ee-4ddd-8468-05ab1dd3fa96))
+    (pin "T" (uuid 772f6816-6ecd-4cdd-8718-efdd4e2e59b4))
+    (pin "TN" (uuid de5f43a2-9df9-4b3b-9bd0-1bd281d5fea4))
     (instances
-      (project "lichen-passive-mutes"
+      (project "lichen-passive-mutes-board"
         (path "/1ae5b669-8542-4edb-8110-fc9c765afc0e"
           (reference "J5") (unit 1)
         )
