@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Lichen Bifocals Submodule/Power Board")
+    (date "2024-08-30")
+    (rev "1.1")
+    (company "Lichen Community Systems")
+  )
+
   (lib_symbols
     (symbol "ES_Daisy_Patch_SM_FB_Rev1-eagle-import:ES_DAISY_PATCH_SM_REV1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "" (at 0 0 0)

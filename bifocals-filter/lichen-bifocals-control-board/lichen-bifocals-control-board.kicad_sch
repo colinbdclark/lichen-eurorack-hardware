@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Lichen Bifocals")
-    (date "2024-02-05")
-    (rev "1.0")
+    (title "Lichen Bifocals Controls Board")
+    (date "2024-08-30")
+    (rev "1.1")
     (company "Lichen Community Systems")
   )
 
@@ -1063,7 +1063,7 @@
     (pin "8" (uuid daac096b-98ea-4d7d-8d90-66699b44bf48))
     (pin "9" (uuid 1f139583-5f89-4fc3-a7ac-bd93d1ac2005))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "H2") (unit 1)
         )
@@ -1088,7 +1088,7 @@
     )
     (pin "1" (uuid 5c67db5b-eb3a-4769-924d-a237ec9602ee))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR018") (unit 1)
         )
@@ -1115,7 +1115,7 @@
     (pin "NORM" (uuid e4c53258-1bc9-45cb-95ff-bd1f5fd53515))
     (pin "TIP" (uuid 0f6e3126-596f-403e-ade2-4ea8f676bf8b))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J6") (unit 1)
         )
@@ -1142,7 +1142,7 @@
     (pin "2" (uuid ae943ca9-043d-4e6b-90bb-776268dbd82f))
     (pin "3" (uuid 2847920b-a110-4e66-9c1b-b705934a38f0))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "VR1") (unit 1)
         )
@@ -1167,7 +1167,7 @@
     )
     (pin "1" (uuid 8afcbe26-a0a3-4e17-adce-f7a6e65a42bd))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR026") (unit 1)
         )
@@ -1192,7 +1192,7 @@
     )
     (pin "1" (uuid e953111a-bddc-4136-b7e1-2a3bbcad4449))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR025") (unit 1)
         )
@@ -1217,7 +1217,7 @@
     )
     (pin "1" (uuid 8d29b021-442f-4707-a362-9f37e55c88db))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR027") (unit 1)
         )
@@ -1242,7 +1242,7 @@
     )
     (pin "1" (uuid b8fd7d90-b62b-4307-80e2-7345cdfb6817))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR022") (unit 1)
         )
@@ -1267,7 +1267,7 @@
     )
     (pin "1" (uuid 21e48b87-b251-46b5-9bdb-7f7595a7c7ee))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR029") (unit 1)
         )
@@ -1294,7 +1294,7 @@
     (pin "NORM" (uuid d378e9d7-f9e1-4e25-97a5-56ba01e66258))
     (pin "TIP" (uuid f334b67d-b202-4ddb-bcb4-64c0e27415a5))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J4") (unit 1)
         )
@@ -1322,7 +1322,7 @@
     (pin "3" (uuid 467d1f1c-7b34-4073-a4b4-1b30b08febc0))
     (pin "4" (uuid c7fbb3e9-0c58-4abe-83d6-463cba308474))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "S1") (unit 1)
         )
@@ -1347,7 +1347,7 @@
     )
     (pin "1" (uuid e52e4669-96f5-42ca-851d-083821af2c19))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR024") (unit 1)
         )
@@ -1374,7 +1374,7 @@
     (pin "NORM" (uuid 53f689a8-b1f9-4eae-b024-b80f3dbcd51f))
     (pin "TIP" (uuid 534f5e60-ded0-4fb6-848d-82d90882bc24))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J2") (unit 1)
         )
@@ -1399,7 +1399,7 @@
     )
     (pin "1" (uuid c59e89be-e441-48e7-ace0-3b5b21cb110d))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR015") (unit 1)
         )
@@ -1424,7 +1424,7 @@
     )
     (pin "1" (uuid 90c85e54-9b94-462d-9ebc-d8e04ab02cf2))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR09") (unit 1)
         )
@@ -1449,7 +1449,7 @@
     )
     (pin "1" (uuid 2b52bc57-7444-4fe2-b13c-818b499382b3))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR014") (unit 1)
         )
@@ -1474,7 +1474,7 @@
     )
     (pin "1" (uuid 6d7b3b3e-91fa-426c-8108-a8f2e0689b21))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR010") (unit 1)
         )
@@ -1499,7 +1499,7 @@
     )
     (pin "1" (uuid c670e9e7-b705-4905-bf75-a68751c73938))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR019") (unit 1)
         )
@@ -1526,7 +1526,7 @@
     (pin "2" (uuid 862e19da-7e25-4d8f-a572-556203aa0a3f))
     (pin "3" (uuid 5df28db1-71d1-4667-9bb5-7dbcc2b0ad9c))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "VR5") (unit 1)
         )
@@ -1553,7 +1553,7 @@
     (pin "2" (uuid 54eba41e-0f82-4793-912b-e904324acc36))
     (pin "3" (uuid e5d48b36-609a-4711-ae38-b0868606ac89))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "VR4") (unit 1)
         )
@@ -1578,7 +1578,7 @@
     )
     (pin "1" (uuid 98908a11-f4c4-4008-8d93-b924a459db3a))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR013") (unit 1)
         )
@@ -1603,7 +1603,7 @@
     )
     (pin "1" (uuid fc346c1e-efc8-4ba1-b2b6-0a0e7e2b6459))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR016") (unit 1)
         )
@@ -1630,7 +1630,7 @@
     (pin "2" (uuid d5e9142e-1dba-47dc-a0dc-7473d66b768c))
     (pin "3" (uuid 2e5c813b-7075-4ed1-9e2c-48cbe3a28afd))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "VR2") (unit 1)
         )
@@ -1657,7 +1657,7 @@
     (pin "NORM" (uuid 5ea3c58a-375f-4a9f-88a3-8da5a8a1defa))
     (pin "TIP" (uuid eddf0a51-106a-43d1-bf55-b9f1d79a4def))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J1") (unit 1)
         )
@@ -1682,7 +1682,7 @@
     )
     (pin "1" (uuid 832f5503-a086-418d-99ef-bdb653621620))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR020") (unit 1)
         )
@@ -1707,7 +1707,7 @@
     )
     (pin "1" (uuid 789d81cc-6144-4504-89b8-64753f5d30c9))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR011") (unit 1)
         )
@@ -1734,7 +1734,7 @@
     (pin "NORM" (uuid 1852d7e4-8d89-43a9-a9f9-83534d3fd83a))
     (pin "TIP" (uuid a4b63e0c-8186-443a-a198-d4c57649f04f))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J9") (unit 1)
         )
@@ -1761,7 +1761,7 @@
     (pin "2" (uuid c1fb0d03-dd6f-464f-a797-a31c6622f294))
     (pin "3" (uuid 3278760d-37f5-412e-8f20-084fc4e8b006))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "VR3") (unit 1)
         )
@@ -1791,7 +1791,7 @@
           (reference "#PWR030") (unit 1)
         )
       )
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR04") (unit 1)
         )
@@ -1825,7 +1825,7 @@
     (pin "8" (uuid ec0fb840-fd35-4f81-be34-25f59f7d05d7))
     (pin "9" (uuid d878d866-5d51-48a1-be18-26277918b9f8))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "H1") (unit 1)
         )
@@ -1850,7 +1850,7 @@
     )
     (pin "1" (uuid f0deddf9-1142-4aa3-a8e9-9219906a9190))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR023") (unit 1)
         )
@@ -1875,7 +1875,7 @@
     )
     (pin "1" (uuid c5719190-64a1-4f9e-a492-b306886d4d53))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR017") (unit 1)
         )
@@ -1902,7 +1902,7 @@
     (pin "NORM" (uuid 42b89990-a344-484c-b9bb-1175373bb683))
     (pin "TIP" (uuid 0f3f448d-05ba-4187-b945-69a9f63bdabc))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J5") (unit 1)
         )
@@ -1927,7 +1927,7 @@
     )
     (pin "1" (uuid 928c8038-05ac-4bd8-a244-7281393f9fdd))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR02") (unit 1)
         )
@@ -1954,7 +1954,7 @@
     (pin "NORM" (uuid d4d2e6e8-c0df-4bc4-95ed-5fc1b5fccc68))
     (pin "TIP" (uuid 6b7df1d4-9635-41ec-b18b-9205a62947e3))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J3") (unit 1)
         )
@@ -1979,7 +1979,7 @@
     )
     (pin "1" (uuid 1af00e30-7b16-47c2-a39d-c507c6d501f4))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR03") (unit 1)
         )
@@ -2004,7 +2004,7 @@
     )
     (pin "1" (uuid 786c5cb6-2af4-4623-9ffa-4e36f54df744))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR021") (unit 1)
         )
@@ -2029,7 +2029,7 @@
     )
     (pin "1" (uuid 752f9acc-08f6-4ca8-a522-aaab9aea110d))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR012") (unit 1)
         )
@@ -2055,7 +2055,7 @@
     (pin "A" (uuid 3683515d-48a8-4d9b-be10-a0b594beca12))
     (pin "K" (uuid 55d63c88-32fd-467c-a2c4-c9dd08b9fcfa))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "LED1") (unit 1)
         )
@@ -2082,7 +2082,7 @@
     (pin "NORM" (uuid a7e110af-7c59-4239-bd31-7e34f1c20a54))
     (pin "TIP" (uuid 30d52e24-8e2a-49df-b53c-346a827bedac))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J7") (unit 1)
         )
@@ -2109,7 +2109,7 @@
     (pin "NORM" (uuid d0b9483b-a7dd-4fc9-83be-07d9232555bb))
     (pin "TIP" (uuid 0b9ca77f-9780-4661-9b57-7aa4b975fb64))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "J8") (unit 1)
         )
@@ -2134,7 +2134,7 @@
     )
     (pin "1" (uuid 866dbb04-83dc-4f02-8ca6-34c2f89a99d2))
     (instances
-      (project "lichen-bifocals-board"
+      (project "lichen-bifocals-control-board"
         (path "/af83a72f-b7ee-4346-b6a2-eaa1468cc44d"
           (reference "#PWR01") (unit 1)
         )
