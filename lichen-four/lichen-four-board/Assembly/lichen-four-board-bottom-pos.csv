@@ -1,0 +1,15 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+PWR1,Eurorack_Power,PinHeader_2x05_P2.54mm_Vertical_SMD,144.865,-119.82,0,bottom
+R1,10k,R_0603,130.39,-140.48,180,bottom
+R2,13k,R_0603,130.39,-145.14,180,bottom
+R3,1K,R_0603,130.47,-148.2,0,bottom
+R4,5K,R_0603,126.33,-140.47,180,bottom
+R5,820R,R_0603,124.65,-145.2,180,bottom
+R6,10k,R_0603,130.13,-118.75,0,bottom
+R7,13k,R_0603,130.26,-115.85,180,bottom
+R8,1K,R_0603,130.24,-112.26,0,bottom
+R9,5K,R_0603,128.55,-124.14,90,bottom
+R10,820R,R_0603,131.17,-124.16,-90,bottom
+R11,1k,R_0603,128.95,-159.36,0,bottom
+U1,CD4051B,SOIC-16_3.9x9.9mm_Pitch1.27mm,130.3,-199.61,-90,bottom
+U2,TL072,SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm_HandSolder,130.205,-133.07,90,bottom

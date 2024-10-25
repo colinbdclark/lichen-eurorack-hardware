@@ -40,13 +40,13 @@
   (setup
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010fc_7fffffff)
+      (layerselection 0x00010bc_7fffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions true)
-      (usegerberattributes true)
-      (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (dashed_line_dash_ratio 12.000000)
       (dashed_line_gap_ratio 3.000000)
       (svgprecision 4)
@@ -63,7 +63,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk true)
@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers-lichen-bifocals-panel-v1.0/")
+      (outputdirectory "Production/v1.1/")
     )
   )
 
@@ -110837,7 +110837,6 @@
       e319491a-b87a-4b24-b44c-e59250610b83
       e32c32e0-3484-4434-a40f-323144749b4b
       e37371fa-7de6-4bfa-a48f-02a1fe5055fa
-      e3828c52-0b65-4a01-9259-b089a10d296c
       e3847e70-8957-48bc-8bd3-596b56daca41
       e45752ce-c6d4-44b1-b1c8-931e39140285
       e475818d-b76c-4ba5-98ef-675aa0ac8301

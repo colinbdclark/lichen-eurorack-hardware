@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+Eurorack_Power,PWR1,winterbloom:Eurorack_Power_2x5_Shrouded_Lock,C3294463
+10k_0603,"R1,R6",PCM_4ms_Resistor:R_0603,C25804
+1k_0603,R11,PCM_4ms_Resistor:R_0603,C21190
+13k_0603,"R2,R7",PCM_4ms_Resistor:R_0603,C22797
+1K_0603,"R3,R8",PCM_4ms_Resistor:R_0603,C21190
+4.99K_0603,R4,PCM_4ms_Resistor:R_0603,C23046
+820R_0603,"R5,R10",PCM_4ms_Resistor:R_0603,C23253
+5K_0603,R9,PCM_4ms_Resistor:R_0603,C23046
+CD4051B,U1,PCM_4ms_Package_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,C21379
+TL072,U2,PCM_4ms_Package_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm_HandSolder,C6961
