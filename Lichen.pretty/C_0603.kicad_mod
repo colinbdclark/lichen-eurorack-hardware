@@ -1,0 +1,205 @@
+(footprint "C_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
+	(tags "capacitor 0603 C0603")
+	(property "Reference" "C9"
+		(at 0 1.51 0)
+		(layer "F.SilkS")
+		(uuid "e342f05d-d89c-4f17-bfc9-90d039b15ccd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "330pF C0G"
+		(at 1.44 -1.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0027324e-904c-48be-837e-ccf8c0c18317")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62454894-4684-4871-beec-317fc31ce339")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "50V 100nF X7R ±10% 0603 MLCC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d69d0374-c0c5-4791-8621-076c031d0655")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "042c3b27-53dd-4baa-b80a-130a80ef9650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "CC0603KRX7R9BB104 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "880d7997-de5c-4507-a6cf-656e4d08757e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Display" "100nF/50V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d778b1bf-5239-4bae-8aa2-37b9e1351528")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C14663"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acf078aa-74ef-4179-b3ed-55880484cbb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Specifications" "330pF 50V C0G ±5% 0603 MLCC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dcee181-396a-4d52-a8dd-a4c0b0f47894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 -0.75)
+		(end -0.1 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62aa6f9c-3e0e-4bf3-a39b-3402cc996e26")
+	)
+	(fp_line
+		(start 0.1 0.75)
+		(end 0.1 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d0c25ab-bea2-4bab-bc9a-8bb300fabed0")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18e3a1ce-cd23-4db7-849c-c381001a2da5")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eaed95e3-1099-45d4-9427-1e8db64d8e4e")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f55f9d7-3f30-41d9-b1ef-3ee1c4e91633")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb5a8596-49fa-4df9-84b3-88e80a2709d1")
+	)
+	(pad "1" smd rect
+		(at -0.85 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8529426b-af52-4c79-80ae-bd1d2987dadb")
+	)
+	(pad "2" smd rect
+		(at 0.85 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "767d0b29-4b6e-4391-a881-7afaca7e6eeb")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
