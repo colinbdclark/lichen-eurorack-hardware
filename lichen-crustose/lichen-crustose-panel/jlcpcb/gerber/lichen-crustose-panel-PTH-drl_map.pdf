@@ -1,0 +1,160 @@
+%PDF-1.5
+%€‚ƒ
+5 0 obj
+<< /Length 6 0 R /Filter /FlateDecode >>
+stream
+xÚ—É$5†ïõy„A„;8"	Ä¨Í¨‹¥…„ÄÓó;§§'ÓvÔ´èE•êO:vG31×´qÿşğøú¶Éö~ß¾#ÛãoO?}»U!.Å¶.»H¥jÙÁÔñM)y¶´5®œÈD¹Õív±ª¹P­¬RÎìáÌrauÊ­4S°Ó;ï±á?_îÙü×¸í!Ø>{~zf…Å9gu«WâÌ0´GëËëöù÷o^¿úå›?~ÿ{óæd9m×_·¼]7üúïöÉWo>İ®o·¯¯—_|pF,¨ˆh³ÿyğ¯şüâÃ¹sJj™E*ğœ©UÎU¬3SS%M¦%íiW–Ö½p·¥2¢]i-Áå–à˜0gmï•íÊZ˜ÄYjgE¹4|<)#º+›'TMgZ%5ãge@»²¡î›%‘Î?”Iªé½2¢“2åFÙUQ¨åNÖ
+g8—j+ktŠ£Ûrm–m¡³’‘7ªlxı"+G:VÂ±¾æJ¸W}“‘I˜&Ş&å‰©r¥R‘²´P*òA	}–ê;e1Œ’$Öùé®t40ÜÉ;«™*Îğge@»2,c/­hWæTH9á}+e1¸VT0%§Ù}åĞŸRR#•&®‹şét&J’jQø·:ó@w¥1*3¯Ïèí'/ğóµ‰qË $ù[Ïx.æ‹^	é®dîwW_ôgH'åè'
+D)#+¥LÖ¢öL1jÊÂÚveo&œ´,¬é¤­…¡†şL…Ódí‰İWùìS¿ö;G²QkVôÉÚv%†=1v½w§3#:*§	¦5äÃy®¡Ó6lWu¡<Ò®Læ„V0öÅ
+é®d!¤ÚÌ3!¤]‰ãI¤a$®”írÇ¼@Ø<¯¬=GèT}H.bo}ç\Ä6¢£µ³2¢£µS¯„tWš¢?µè•NÊñ¶é[©L¸ªŠØÂÚ#ò™X©”ÖwĞE>tÌÊ¬ŒèTñã>;…rîñœ«ïÈ²õ%›]“•r¨øÊí7ìêiW64:ÚCl¥ŒhWº¤n –­UÅGtWj!¬¬5ñb7	é®¬øïÀ?ççIĞI‰J‚áa+åNÖ2†G>f+ktŒĞÔe!³2wvDÇJ˜•ªo´ëö T´äèg¿®z»¢4VÊˆŞ†·NÖ†tWbÇÇpi¼<3¢·;|ÜÏ—[;Tü)SÅ‡t²v¼?C:Fh>3¢·;|ÜÏ{ÖşèŠ„›
+endstream
+endobj
+6 0 obj
+969
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 1 0 R
+/Resources <<
+    /ProcSet [/PDF /Text /ImageC /ImageB]
+    /Font 2 0 R
+    /XObject 3 0 R >>
+/MediaBox [0 0 841.896 595.296]
+/Contents 5 0 R
+>>
+endobj
+8 0 obj
+<</S /GoTo /D [7 0 R /Fit]
+>>
+endobj
+10 0 obj
+<< /BaseFont /Helvetica
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<< /BaseFont /Helvetica-Oblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<< /BaseFont /Helvetica-Bold
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<< /BaseFont /Helvetica-BoldOblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+    /KicadFont 10 0 R
+    /KicadFontI 11 0 R
+    /KicadFontB 12 0 R
+    /KicadFontBI 13 0 R
+>>
+endobj
+3 0 obj
+<<
+>>
+endobj
+4 0 obj
+<< /JavaScript
+ << /Names
+    [ (JSInit) << /Type /Action /S /JavaScript /JS (
+function ShM\(aEntries\) {
+    var aParams = [];
+    for \(var i in aEntries\) {
+        aParams.push\({
+            cName: aEntries[i][0],
+            cReturn: aEntries[i][1]
+        }\)
+    }
+
+    var cChoice = app.popUpMenuEx.apply\(app, aParams\);
+    if \(cChoice != null && cChoice.substring\(0, 1\) == '#'\) this.pageNum = parseInt\(cChoice.slice\(1\)\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'http'\) app.launchURL\(cChoice\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'file'\) app.openDoc\(cChoice.substring\(7\)\);
+}
+) >> ]
+ >>
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages
+/Kids [
+7 0 R
+]
+/Count 1
+>>
+endobj
+14 0 obj
+<<
+/Producer (KiCad PDF)
+/CreationDate (D:20251217111636)
+/Creator (PCBNEW)
+/Title (lichen-crustose-panel-PTH-drl_map.pdf)
+/Author ()
+/Subject ()
+>>
+endobj
+9 0 obj
+<<
+/Title (Page 1)
+/Parent 15 0 R
+/A 8 0 R
+>>
+endobj
+15 0 obj
+<< /Type /Outlines
+   /Count 1
+   /First 9 0 R
+   /Last 9 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Version /1.5
+/PageMode /UseOutlines
+/Outlines 15 0 R
+/Names 4 0 R
+/PageLayout /SinglePage
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000002577 00000 n 
+0000001764 00000 n 
+0000001877 00000 n 
+0000001898 00000 n 
+0000000015 00000 n 
+0000001058 00000 n 
+0000001077 00000 n 
+0000001266 00000 n 
+0000002801 00000 n 
+0000001311 00000 n 
+0000001418 00000 n 
+0000001533 00000 n 
+0000001645 00000 n 
+0000002636 00000 n 
+0000002862 00000 n 
+0000002943 00000 n 
+trailer
+<< /Size 17 /Root 16 0 R /Info 14 0 R >>
+startxref
+3084
+%%EOF

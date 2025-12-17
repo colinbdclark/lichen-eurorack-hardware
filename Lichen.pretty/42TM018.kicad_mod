@@ -250,7 +250,7 @@
 		(uuid "ab3ea5a6-6d4d-4eed-9db4-63915222a1db")
 	)
 	(embedded_fonts no)
-	(model "42TM018-RC.stp"
+	(model "/Users/colin/Documents/KiCad/Components and Footprints/42TM018/42TM018-RC.stp"
 		(offset
 			(xyz 6.349999809 -3.559999889 3.99999994)
 		)

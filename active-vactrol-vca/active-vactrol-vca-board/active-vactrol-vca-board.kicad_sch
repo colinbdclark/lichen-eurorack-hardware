@@ -5,6 +5,216 @@
 	(uuid "bee7e378-5971-4ef4-8c50-ca312a04ab0f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "FerriteBead_0603_JLC_Basic_for_Eurorack_Power_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L1"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead_0603_2A"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Lichen:R_0603"
+				(at 14.732 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900229559300096"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads"
+				(at 25.146 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads"
+				(at -1.27 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at -1.27 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "BLM18PG121SN1D"
+				(at -1.27 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "Ferrite Bead"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "LCSC" "C14709"
+				(at 2.54 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FerriteBead_0603_1.5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0603_JLC_Basic_for_Eurorack_Power_1_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_0603_JLC_Basic_for_Eurorack_Power_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Lichen:10uF_0805_50V"
 			(pin_numbers
 				(hide yes)
@@ -176,6 +386,181 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:1R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R7"
+				(at 2.54 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1R"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Lichen:R_0603"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706155561910272"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mW 1Ω 75V ±1% 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "100mW 1Ω 75V ±1%"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" " UNI-ROYAL(Uniroyal Elec)"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603WAF100KT5E "
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "1R"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "LCSC" "C22936"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100R_0603 100Ω"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1R_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -693,7 +1078,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(property "Footprint" "Lichen:R_0603"
 				(at 14.732 -18.288 0)
 				(effects
 					(font
@@ -2022,9 +2407,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1R series resistor with\nbypass capacitors\nhelp provide regulator stability."
+		(exclude_from_sim no)
+		(at 129.54 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b8f7efd-c2ea-4535-ab66-08243176155a")
+	)
 	(text "Note, in paults' schematic,\nthe ferrite bead he uses is a Murata BLM21PG221SN1D\nwhich is 220R@100MHz.\nThis part (120R@100MHz) is substituted because it's JLC Basic,\nbut may not be as suitable a part."
 		(exclude_from_sim no)
-		(at 164.084 70.612 0)
+		(at 165.1 72.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,13 +2453,13 @@
 		(at 118.11 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "595350b6-9f37-40a2-8858-960d90faf39e")
+		(uuid "245b4475-73ed-42c1-a191-783bdf287e7c")
 	)
 	(junction
-		(at 140.97 39.37)
+		(at 129.54 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67de0a80-4164-4545-99ea-d1db2888f38f")
+		(uuid "31953134-76ed-40c1-a7e2-de23c463be02")
 	)
 	(junction
 		(at 172.72 102.87)
@@ -2073,28 +2468,32 @@
 		(uuid "89b1e254-6c0b-47af-8048-b64bad8bf431")
 	)
 	(junction
-		(at 140.97 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a802040a-2bad-4ba1-929b-6b6bb3c6acae")
-	)
-	(junction
 		(at 172.72 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a95c81a5-0cc7-456c-a4bf-b951f371ee29")
 	)
 	(junction
-		(at 129.54 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2588e90-5b70-43e4-b4cd-ae958e82438a")
-	)
-	(junction
 		(at 187.96 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6615693-133f-4f93-a16c-4a188a2f6de9")
+	)
+	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffabd656-7db9-4fc0-b77d-e08e8638c783")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 140.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b331ee-180a-4f84-997e-c82d6b592cd8")
 	)
 	(wire
 		(pts
@@ -2118,16 +2517,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 43.18) (xy 118.11 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b63332-85ee-4b2c-9f4e-956a12dfe0a7")
-	)
-	(wire
-		(pts
 			(xy 149.86 87.63) (xy 148.59 87.63)
 		)
 		(stroke
@@ -2138,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 48.26) (xy 140.97 50.8)
+			(xy 140.97 55.88) (xy 140.97 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 129.54 50.8)
+			(xy 118.11 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 129.54 50.8)
+			(xy 129.54 58.42) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2205,6 +2594,16 @@
 			(type default)
 		)
 		(uuid "4e8f9300-88d2-4399-9112-fe8111743543")
+	)
+	(wire
+		(pts
+			(xy 129.54 49.53) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d85a5e-12bc-48f2-8a05-10b5061100cf")
 	)
 	(wire
 		(pts
@@ -2228,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 50.8) (xy 129.54 50.8)
+			(xy 140.97 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2265,16 +2664,6 @@
 			(type default)
 		)
 		(uuid "8d8ffbb7-9bfe-42ba-8a32-c8806387a9d0")
-	)
-	(wire
-		(pts
-			(xy 129.54 50.8) (xy 129.54 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e355f34-7c80-41fb-b2d1-032502c5690b")
 	)
 	(wire
 		(pts
@@ -2318,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 41.91) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaebf591-04f0-4a01-a01b-b8290baccf5b")
+	)
+	(wire
+		(pts
 			(xy 161.29 87.63) (xy 157.48 87.63)
 		)
 		(stroke
@@ -2358,23 +2757,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 48.26) (xy 118.11 50.8)
+			(xy 118.11 55.88) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d75f1e22-2656-440d-bffc-9f578c4119af")
-	)
-	(wire
-		(pts
-			(xy 140.97 43.18) (xy 140.97 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ae8e2a-c165-4168-8e0c-aef7baa65b2f")
 	)
 	(wire
 		(pts
@@ -2542,7 +2931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 52.07 0)
+		(at 129.54 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2551,7 +2940,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dcd71bc-05bb-434a-88f0-35bf11e4581c")
 		(property "Reference" "#PWR014"
-			(at 129.54 58.42 0)
+			(at 129.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 57.15 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 52.07 0)
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 52.07 0)
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 52.07 0)
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,73 +3306,6 @@
 			(project "lichen-crustose"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 140.97 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f1c93ea-2d1c-42d5-b28a-59e3c5995b84")
-		(property "Reference" "#FLG03"
-			(at 142.875 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 144.78 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 140.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f09d14d9-0823-452a-b7b1-67eaa2402c4e")
-		)
-		(instances
-			(project "active-vactrol-vca-board"
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3405,6 +3727,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FerriteBead_0603_JLC_Basic_for_Eurorack_Power_1")
 		(lib_id "Lichen:FerriteBead_0603_JLC_Basic_for_Eurorack_Power")
 		(at 153.67 87.63 90)
 		(unit 1)
@@ -3521,6 +3844,125 @@
 			(project "lichen-crustose"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:1R_0603")
+		(at 140.97 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b7d086-d536-49a2-b5a7-ba0b3d81e511")
+		(property "Reference" "R7"
+			(at 143.51 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1R"
+			(at 138.43 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Lichen:R_0603"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706155561910272"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 1Ω 75V ±1% 0603"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "100mW 1Ω 75V ±1%"
+			(at 138.43 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " UNI-ROYAL(Uniroyal Elec)"
+			(at 138.43 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF100KT5E "
+			(at 138.43 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "1R"
+			(at 143.51 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0161f5d-3efd-4f79-89ee-1258533f50dd")
+		)
+		(pin "2"
+			(uuid "82790539-18fe-43ad-baea-51d3bbecd90c")
+		)
+		(instances
+			(project ""
+				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3781,7 +4223,7 @@
 	)
 	(symbol
 		(lib_id "Lichen:22uF_0805_25V")
-		(at 118.11 45.72 0)
+		(at 118.11 53.34 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3791,7 +4233,7 @@
 		(fields_autoplaced yes)
 		(uuid "675fbedb-6ac1-4f13-96e2-f5c7b46a57f8")
 		(property "Reference" "C3"
-			(at 115.57 44.4435 0)
+			(at 115.57 52.0635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +4242,7 @@
 			)
 		)
 		(property "Value" "22uF_0805_25V"
-			(at 123.19 36.322 0)
+			(at 123.19 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +4251,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:C_0805"
-			(at 115.57 28.956 0)
+			(at 115.57 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +4261,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706866429190144"
-			(at 117.856 25.654 0)
+			(at 117.856 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +4270,7 @@
 			)
 		)
 		(property "Description" "22uF 25V X5R ±20% 0805 MLCC"
-			(at 118.872 55.372 0)
+			(at 118.872 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +4279,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 115.57 34.544 0)
+			(at 115.57 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +4289,7 @@
 			)
 		)
 		(property "Part Number" "CL21A226MAQNNNE"
-			(at 115.57 33.02 0)
+			(at 115.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +4299,7 @@
 			)
 		)
 		(property "Display" "22uF/25V"
-			(at 115.57 46.9835 0)
+			(at 115.57 54.6035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +4308,7 @@
 			)
 		)
 		(property "LCSC" "C45783"
-			(at 119.38 30.988 0)
+			(at 119.38 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,6 +4905,125 @@
 			(project "lichen-crustose"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:1R_0603")
+		(at 118.11 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db62687a-ef86-4052-918c-31a5184e43d5")
+		(property "Reference" "R6"
+			(at 120.65 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1R"
+			(at 115.57 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Lichen:R_0603"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706155561910272"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 1Ω 75V ±1% 0603"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "100mW 1Ω 75V ±1%"
+			(at 115.57 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " UNI-ROYAL(Uniroyal Elec)"
+			(at 115.57 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF100KT5E "
+			(at 115.57 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "1R"
+			(at 120.65 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0161f5d-3efd-4f79-89ee-1258533f50dd")
+		)
+		(pin "2"
+			(uuid "82790539-18fe-43ad-baea-51d3bbecd90c")
+		)
+		(instances
+			(project ""
+				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5142,7 +5703,7 @@
 	)
 	(symbol
 		(lib_id "Lichen:22uF_0805_25V")
-		(at 140.97 45.72 180)
+		(at 140.97 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5151,7 +5712,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8a623e0-1bf3-4ed5-930f-2c858972b144")
 		(property "Reference" "C6"
-			(at 143.51 44.4435 0)
+			(at 143.51 52.0635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5721,7 @@
 			)
 		)
 		(property "Value" "22uF_0805_25V"
-			(at 135.89 36.322 0)
+			(at 135.89 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5730,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:C_0805"
-			(at 143.51 28.956 0)
+			(at 143.51 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706866429190144"
-			(at 141.224 25.654 0)
+			(at 141.224 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5749,7 @@
 			)
 		)
 		(property "Description" "22uF 25V X5R ±20% 0805 MLCC"
-			(at 140.208 55.372 0)
+			(at 140.208 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5758,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 143.51 34.544 0)
+			(at 143.51 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5768,7 @@
 			)
 		)
 		(property "Part Number" "CL21A226MAQNNNE"
-			(at 143.51 33.02 0)
+			(at 143.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5778,7 @@
 			)
 		)
 		(property "Display" "22uF/25V"
-			(at 143.51 46.9835 0)
+			(at 143.51 54.6035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5787,7 @@
 			)
 		)
 		(property "LCSC" "C45783"
-			(at 139.7 30.988 0)
+			(at 139.7 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)

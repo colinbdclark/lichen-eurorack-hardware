@@ -1,0 +1,10 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10uF_0805_25V,C_0805,136.95,-199.75,-90.0,top
+C2,10uF_0805_25V,C_0805,113.4,-190.0,-90.0,top
+C3,100nF_0603_50V,C_0603,137.0,-188.8,90.0,top
+D1,Schottky,D_SMB_Handsoldering,117.25,-191.8,-90.0,top
+D2,Schottky,D_SMB_Handsoldering,133.15,-201.55,90.0,top
+L1,FerriteBead_0603_2A,R_0603,117.25,-198.8,90.0,top
+L2,FerriteBead_0603_2A,R_0603,133.15,-208.8,90.0,top
+R1,470R_0603,R_0603,136.95,-192.35,90.0,top
+U1,LM4040-2.5,SOT23-3_PO132,133.90127,-190.6,90.0,top

@@ -1,0 +1,232 @@
+(footprint "C_1210"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "C2"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "cdb64455-653d-4714-a34f-8f11f5dde855")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100nF C0G"
+		(at 2 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90901c6c-337f-42f2-a743-f091566504b2")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588920014342926336"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "065ce6f5-7cdf-49d5-ab8c-4c2d2a70f1d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "100nF 16V Metallized PPS ±2% 1210 Film"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5db685b6-4dc5-44b6-a057-2a2430d0435d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c76a7f78-fbec-4a1d-bb71-697024714349")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "ECHU1C104GX5 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a308713-cf20-4d88-a34b-b986c7024bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Display" "100nF Film"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3447fcbe-6547-4207-bd16-2132fb064ade")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C569766"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d738841a-d502-4bd3-bbc7-e795374596a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 -1.36)
+		(end 0.65 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c6ef155-fea1-4ec4-a500-af6537d282b8")
+	)
+	(fp_line
+		(start -0.65 1.36)
+		(end 0.65 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c302f0f-369b-4183-b687-1c5ee61b360f")
+	)
+	(fp_line
+		(start -2.29 -1.6)
+		(end 2.29 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38e91941-0a83-4a5f-8ad4-31cd9053d426")
+	)
+	(fp_line
+		(start -2.29 1.6)
+		(end -2.29 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59111626-3bea-4062-b8de-e71911289356")
+	)
+	(fp_line
+		(start 2.29 -1.6)
+		(end 2.29 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93b50658-6dff-482c-bc77-7f033288fa03")
+	)
+	(fp_line
+		(start 2.29 1.6)
+		(end -2.29 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de39ea49-df3e-4b19-bd4d-10aa7593ee4d")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "564b92b5-780f-4be2-82cb-4089ce8e8033")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6991ce4-3ccd-41c1-ba52-909da8c98434")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cd64909-3e57-4703-a6bb-a8483f955a12")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdf683b6-4e78-4a8c-87e8-d74b4b256ca8")
+	)
+	(pad "1" smd rect
+		(at -1.505 0)
+		(size 1.07 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a4ff5c4-e9a4-4aa8-80f2-03c5200188aa")
+	)
+	(pad "2" smd rect
+		(at 1.505 0)
+		(size 1.07 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9271b763-01d5-4410-b85e-448e8daa9be3")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

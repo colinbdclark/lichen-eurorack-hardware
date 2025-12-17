@@ -1,0 +1,159 @@
+%PDF-1.5
+%€‚ƒ
+5 0 obj
+<< /Length 6 0 R /Filter /FlateDecode >>
+stream
+xÚ–İ®5…ï÷Sä.¶c;	—ˆ‚âØ/Pµµ:›Ÿ£JH<=öœŸÎ$ñô¨=ª´·¾½âgÅ3*%ğ¿ßÜ¦íÿû’îÿxüğë©q–¢-ı{™Ø…0ca2Æ­PÏÀĞ¡§ wê@=İ.ÚÔ¿J/@GvwdE@0CEèjì°æÖüíræ¹¶\ĞØ?ÉÜşmÍØ>|õüé™qGÜªHÁTŠ*e$ók}ûöš¾şéİ›×o¿ÿëÏÉÍeÕtı=•t½·ï®ÿ¥/¾»ww÷eº¾O¯®—_^ZXˆ¤g*¨X>³ğÏ¯ÿşæcİ¹ÜKFáRØJ4äŒ­·¦vlGÆ
+˜¥£‚l-©+¥PÖ‚ˆ²RFÔ•ê«bôUE9ÛÎPùQQWV‚ŒP¹Z³˜[·/RA•İ”R³Zv¶UÙ{€Üè©fD7e³ĞŠ8#óƒÖö¬è¤D‹¶r•µrG'·`İSK/İîèØ¡ÒÉc¿n«íéx*¥¹ŸÆV§²§cöùš“p–¾Q)€Åoƒ¥¦ŒÊ#3½5qQY(=	lÃG”Õ®¡ ŸÏ3¦®$¨YXûvŠ÷Z§§šİ”Íü”ZúÒmD]Yì¬…jZ){î] ãÜ¡=;Wï§aóÃ½«à|?c:ÕÏ—?€xUsG7¥íÓeaYÕŒèíd'ŸŞç©[´{’ÙÒS`ê-‚å‹­›ç»S¯Ù;çn³e[u¸Ÿ1•Ó>m~ôÜÙ³svËÌÙ¢H²tÑMi=(]®Ü†tTNn‰Ím­Ö§6¹=°såp¤–L*UÔxâ-$íIQWvëA¶—ŒUÍˆÊi‚Ï-ÚouŞç1y÷Jc])÷tSZ”@©.æPH])æV©W–ÅL©+‹¥OÙÖVÊˆnJ÷#µóÚí¡C‡ôŸ4h¹´†-zÑÑí¬Œèèvº+!u¥OqT²±²¸+!•ãÓ>¦So¡ªAÒ…Û=Î½Bø\3¢ã©ÌÊˆN‰Ş‡„}j‚vÚnÙ1CVì9W»¬Kå!ñìSl®·UnCêJ2·`¿Øú>)#êÊâ~
+¶¶J|H7¥vÚ?L·ñİ$¤®ôyD6Ÿo<ÊˆJ›Ø¶ª…ä)C!İ–æ«6°éÂíšnYHÇS™nvHÇ$ÌÊˆNé›ÜV›š6ÿYë¼ÏÚ0Ûëz‡¶Tô6­:ºè¦Í½Ù[¥.kôv²“ìóÅnÇÄï{0'>¢cÍéùÒ±C‹š½ìäû<qû?#æˆX
+endstream
+endobj
+6 0 obj
+963
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 1 0 R
+/Resources <<
+    /ProcSet [/PDF /Text /ImageC /ImageB]
+    /Font 2 0 R
+    /XObject 3 0 R >>
+/MediaBox [0 0 841.896 595.296]
+/Contents 5 0 R
+>>
+endobj
+8 0 obj
+<</S /GoTo /D [7 0 R /Fit]
+>>
+endobj
+10 0 obj
+<< /BaseFont /Helvetica
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<< /BaseFont /Helvetica-Oblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<< /BaseFont /Helvetica-Bold
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<< /BaseFont /Helvetica-BoldOblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+    /KicadFont 10 0 R
+    /KicadFontI 11 0 R
+    /KicadFontB 12 0 R
+    /KicadFontBI 13 0 R
+>>
+endobj
+3 0 obj
+<<
+>>
+endobj
+4 0 obj
+<< /JavaScript
+ << /Names
+    [ (JSInit) << /Type /Action /S /JavaScript /JS (
+function ShM\(aEntries\) {
+    var aParams = [];
+    for \(var i in aEntries\) {
+        aParams.push\({
+            cName: aEntries[i][0],
+            cReturn: aEntries[i][1]
+        }\)
+    }
+
+    var cChoice = app.popUpMenuEx.apply\(app, aParams\);
+    if \(cChoice != null && cChoice.substring\(0, 1\) == '#'\) this.pageNum = parseInt\(cChoice.slice\(1\)\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'http'\) app.launchURL\(cChoice\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'file'\) app.openDoc\(cChoice.substring\(7\)\);
+}
+) >> ]
+ >>
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages
+/Kids [
+7 0 R
+]
+/Count 1
+>>
+endobj
+14 0 obj
+<<
+/Producer (KiCad PDF)
+/CreationDate (D:20251217111615)
+/Creator (PCBNEW)
+/Title (lichen-crustose-control-board-NPTH-drl_map.pdf)
+/Author ()
+/Subject ()
+>>
+endobj
+9 0 obj
+<<
+/Title (Page 1)
+/Parent 15 0 R
+/A 8 0 R
+>>
+endobj
+15 0 obj
+<< /Type /Outlines
+   /Count 1
+   /First 9 0 R
+   /Last 9 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Version /1.5
+/PageMode /UseOutlines
+/Outlines 15 0 R
+/Names 4 0 R
+/PageLayout /SinglePage
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000002571 00000 n 
+0000001758 00000 n 
+0000001871 00000 n 
+0000001892 00000 n 
+0000000015 00000 n 
+0000001052 00000 n 
+0000001071 00000 n 
+0000001260 00000 n 
+0000002804 00000 n 
+0000001305 00000 n 
+0000001412 00000 n 
+0000001527 00000 n 
+0000001639 00000 n 
+0000002630 00000 n 
+0000002865 00000 n 
+0000002946 00000 n 
+trailer
+<< /Size 17 /Root 16 0 R /Info 14 0 R >>
+startxref
+3087
+%%EOF
