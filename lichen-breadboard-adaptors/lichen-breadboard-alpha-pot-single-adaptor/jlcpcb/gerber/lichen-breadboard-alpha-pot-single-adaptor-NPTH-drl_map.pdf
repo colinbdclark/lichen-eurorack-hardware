@@ -1,0 +1,160 @@
+%PDF-1.5
+%€‚ƒ
+5 0 obj
+<< /Length 6 0 R /Filter /FlateDecode >>
+stream
+xÚ—É$5E÷ù^Âó,ƒbä´ºUÉPBBâë¹/2»;Âö‹.Q¥’"ëèÚ÷Mv$E¢*ì÷Ããë[àğşŞŞIxşíñğÓ·A´D‘ğÏeB—Ü#åÌ`™R—˜sO©‡Šu)¦Ö¸õp»”’´Æ”Xu`OG–2)ÇÌÜ˜Ák±aÍŸ/'–k‹5Qû+02`?[*¶‡ÏŞ?½g™%cqÕ–[HZ$E’†5,k_^Ãçß¿yıê—oşøıïÀÔK,%\®ÏøLáúoøä«ç7OOŸ†ëÛğõõòã‹7N‰4Ö¥–ÿ¹ñ¯şüâÃ¾‹úqj=V¡Œ-jÍX¥KgTíÈR.	Ÿ
+mö©)K­‘¦+¥GMY±j©ˆ¼“sÍ½¥‡Ò£¦l%Á|ê…ÁĞ-1·Œª=”5e'‰\M¦Èºª5y(=º)~2&@À~
+kmïâôè¤dÖÈ‚JëJ¹££[íÈ§Ò2-Üîé˜!m­EÎEz_dhOÇªh3?…«‹ªìéØ	ûşš;á¬û&¥ˆ)9q•–”(B©WÊÄè„"*Ò6¥2r@÷ófª§K7eFŞ)UIÆ,ïÔq4¾S:Ô”Ij¤ÇÏn=jÊŒZ’'u¥¬¨gÎÚµÎÚ³så0ŸRÍOne›£q>]:í‰	‚uªÔW{î¨)›Å‰ãuµ§Go'‘¼ Î3·*™cï’…¦Ü*£¿ˆ¸—Õ¬¸tSbê3a)]Ì§KGå§bªí†­*³ÛŒ)KÛ­ºrëÑMi9ÀLeåÖ££rr‹¤¨º%{t{`çÊ¡©IÁUZ‹âOdŸğ¡ô(”™¹‡=ïéÒQ9`¹ãÔÜZuŒóÀ[ö‡xZ(÷Ô”Ö·Ü9Ï!—š²À-®Î«3Á¥¦Ä˜D¹/´PzÔ”	~än~áö¡c÷åŠŠ•û¾È­GG·³Ò££ÛiV\º)­¿î×Ì<+.”ãmïÒ)·¤XUñî(·{:Õ“,*¸©WõÜÑ±*³Ò£sÇïC…+”H‰ğÔC¦J±·Y)_ì/b×ò¢o]jÊdnmVïÒM	?¹o‡ËÜñ.5%Şˆp	mEšßM\º)	Ş,Õ‡7‡Ò¡£R»­š·°fånñÍ	«&I·{:fhš2—U™&Û¥c'ÌJNİ7¹m85éñİvŒ³cìnæÕiâÒÛ¸êäÖ£›Ò*–
+]ºuèí$’Çùr·cÇïs0w¼GÇ=§ûÓ¥c†æ==z;‰äãq¹ıšvˆ^
+endstream
+endobj
+6 0 obj
+960
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 1 0 R
+/Resources <<
+    /ProcSet [/PDF /Text /ImageC /ImageB]
+    /Font 2 0 R
+    /XObject 3 0 R >>
+/MediaBox [0 0 841.896 595.296]
+/Contents 5 0 R
+>>
+endobj
+8 0 obj
+<</S /GoTo /D [7 0 R /Fit]
+>>
+endobj
+10 0 obj
+<< /BaseFont /Helvetica
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<< /BaseFont /Helvetica-Oblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<< /BaseFont /Helvetica-Bold
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<< /BaseFont /Helvetica-BoldOblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+    /KicadFont 10 0 R
+    /KicadFontI 11 0 R
+    /KicadFontB 12 0 R
+    /KicadFontBI 13 0 R
+>>
+endobj
+3 0 obj
+<<
+>>
+endobj
+4 0 obj
+<< /JavaScript
+ << /Names
+    [ (JSInit) << /Type /Action /S /JavaScript /JS (
+function ShM\(aEntries\) {
+    var aParams = [];
+    for \(var i in aEntries\) {
+        aParams.push\({
+            cName: aEntries[i][0],
+            cReturn: aEntries[i][1]
+        }\)
+    }
+
+    var cChoice = app.popUpMenuEx.apply\(app, aParams\);
+    if \(cChoice != null && cChoice.substring\(0, 1\) == '#'\) this.pageNum = parseInt\(cChoice.slice\(1\)\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'http'\) app.launchURL\(cChoice\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'file'\) app.openDoc\(cChoice.substring\(7\)\);
+}
+) >> ]
+ >>
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages
+/Kids [
+7 0 R
+]
+/Count 1
+>>
+endobj
+14 0 obj
+<<
+/Producer (KiCad PDF)
+/CreationDate (D:20251217112733)
+/Creator (PCBNEW)
+/Title (lichen-breadboard-alpha-pot-single-adaptor-NPTH-drl_map.pdf)
+/Author ()
+/Subject ()
+>>
+endobj
+9 0 obj
+<<
+/Title (Page 1)
+/Parent 15 0 R
+/A 8 0 R
+>>
+endobj
+15 0 obj
+<< /Type /Outlines
+   /Count 1
+   /First 9 0 R
+   /Last 9 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Version /1.5
+/PageMode /UseOutlines
+/Outlines 15 0 R
+/Names 4 0 R
+/PageLayout /SinglePage
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000002568 00000 n 
+0000001755 00000 n 
+0000001868 00000 n 
+0000001889 00000 n 
+0000000015 00000 n 
+0000001049 00000 n 
+0000001068 00000 n 
+0000001257 00000 n 
+0000002814 00000 n 
+0000001302 00000 n 
+0000001409 00000 n 
+0000001524 00000 n 
+0000001636 00000 n 
+0000002627 00000 n 
+0000002875 00000 n 
+0000002956 00000 n 
+trailer
+<< /Size 17 /Root 16 0 R /Info 14 0 R >>
+startxref
+3097
+%%EOF
