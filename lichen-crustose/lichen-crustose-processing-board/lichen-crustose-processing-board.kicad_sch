@@ -1500,7 +1500,74 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.792 135.382 0)
+		(at 111.76 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bec3377-70a5-45bb-8fea-d9ecf549379b")
+		(property "Reference" "#PWR020"
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e73d047-9cdd-46e5-b447-3d588ab00f80")
+		)
+		(instances
+			(project "lichen-crustose-processing-board"
+				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1510,7 +1577,7 @@
 		(fields_autoplaced yes)
 		(uuid "2796fb48-597a-4a58-9da5-3022d448194e")
 		(property "Reference" "#PWR02"
-			(at 113.792 141.732 0)
+			(at 87.63 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.792 140.462 0)
+			(at 87.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.792 135.382 0)
+			(at 87.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.792 135.382 0)
+			(at 87.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.792 135.382 0)
+			(at 87.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,8 +1633,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 111.76 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2379e3-c8b4-45bd-ad5d-9e6ec02b954d")
+		(property "Reference" "H3"
+			(at 114.3 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 114.3 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ced7ad4-ada8-4026-95f7-66408d00080d")
+		)
+		(instances
+			(project "lichen-crustose-processing-board"
+				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 88.392 135.382 0)
+		(at 62.23 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1577,7 +1711,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c89a0ab-19b4-4a58-ad8c-e49d557baa9b")
 		(property "Reference" "#PWR01"
-			(at 88.392 141.732 0)
+			(at 62.23 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.392 140.462 0)
+			(at 62.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.392 135.382 0)
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.392 135.382 0)
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.392 135.382 0)
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1834,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 88.392 132.842 0)
+		(at 62.23 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1709,7 +1843,7 @@
 		(fields_autoplaced yes)
 		(uuid "a95f30cf-131d-4ee1-be27-d2afd4bf9c1e")
 		(property "Reference" "H1"
-			(at 90.932 130.3019 0)
+			(at 64.77 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1852,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 90.932 132.8419 0)
+			(at 64.77 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1861,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 88.392 132.842 0)
+			(at 62.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.392 132.842 0)
+			(at 62.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1879,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 88.392 132.842 0)
+			(at 62.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +2059,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 113.792 132.842 0)
+		(at 87.63 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1934,7 +2068,7 @@
 		(fields_autoplaced yes)
 		(uuid "f38a059e-05ed-42b5-83a9-a3276d96c48f")
 		(property "Reference" "H2"
-			(at 116.332 130.3019 0)
+			(at 90.17 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2077,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 116.332 132.8419 0)
+			(at 90.17 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +2086,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 113.792 132.842 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.792 132.842 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2104,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 113.792 132.842 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

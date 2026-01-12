@@ -1089,7 +1089,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:Potentiometer"
+		(symbol "Lichen:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1178,7 +1178,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Potentiometer_0_1"
+			(symbol "R_Potentiometer_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -1215,7 +1215,25 @@
 					)
 				)
 			)
-			(symbol "Potentiometer_1_1"
+			(symbol "R_Potentiometer_1_1"
+				(text "CCW"
+					(at -1.778 2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "CW"
+					(at -1.778 -2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2264,7 +2282,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "11f8c46e-f413-4c15-9a4f-59a859be2480")
@@ -2593,7 +2611,7 @@
 		(at 128.27 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "490d6a03-38e2-4b16-a66d-a51b0afc5131")
@@ -2757,7 +2775,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "536a76b7-acec-4db6-b8ff-e9b1bacd5862")
@@ -2841,18 +2859,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Potentiometer")
+		(lib_id "Lichen:R_Potentiometer")
 		(at 119.38 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c9baff-383d-4155-b4a7-5fb03dc7d249")
 		(property "Reference" "RV5"
-			(at 121.92 113.0299 0)
+			(at 123.19 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +2879,7 @@
 			)
 		)
 		(property "Value" "B500K"
-			(at 121.92 115.5699 0)
+			(at 123.19 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +2955,7 @@
 		(at 121.92 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "60e595b9-e02f-4432-bc49-00218efb75a1")
@@ -3079,7 +3097,7 @@
 		(at 161.29 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3392,18 +3410,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Potentiometer")
+		(lib_id "Lichen:R_Potentiometer")
 		(at 158.75 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7146549-5d07-4b4a-92c4-297ef0bcc64d")
 		(property "Reference" "RV7"
-			(at 161.29 113.0299 0)
+			(at 162.56 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3430,7 @@
 			)
 		)
 		(property "Value" "B500K"
-			(at 161.29 115.5699 0)
+			(at 162.56 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3521,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "1k_0603"
 			(at 156.21 101.6 90)
 			(effects
 				(font
@@ -3569,15 +3587,6 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB ID" "C25804"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C21190"
 			(at 160.02 83.566 0)
 			(effects
@@ -3622,7 +3631,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "1k_0603"
 			(at 116.84 101.6 90)
 			(effects
 				(font
@@ -3686,15 +3695,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "JLCPCB ID" "C25804"
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C21190"

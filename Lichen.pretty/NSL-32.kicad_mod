@@ -144,6 +144,17 @@
 		(layer "F.SilkS")
 		(uuid "c4c1a4ce-e6d4-4fa1-ab6a-e033d10048fc")
 	)
+	(fp_circle
+		(center 1.43 -5.01)
+		(end 1.68 -5.01)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2eecc0d1-5cbf-4260-91e6-d052261a4941")
+	)
 	(fp_line
 		(start -1.39 -5.41)
 		(end -1.39 1.59)
@@ -274,6 +285,32 @@
 		(layer "F.Fab")
 		(uuid "cccc37fc-6c72-4d99-92b2-fa70ad16d28f")
 	)
+	(fp_text user "-"
+		(at 2.61 -3.86 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32f1bc29-2e17-4756-bf30-516bbfdf8609")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 2.62 -0.06 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8e1ec7a-5119-42ee-8b1f-0b4f654abab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 5.08 -1.91 0)
 		(layer "F.Fab")
@@ -319,15 +356,15 @@
 		(uuid "5defb0f3-9bb4-4fba-9464-ddd782134233")
 	)
 	(embedded_fonts no)
-	(model "/Users/colin/Documents/KiCad/Components and Footprints/EurorackModelsFromMouser/LIB_NSL-32SR3/NSL-32SR3/3D/NSL-32SR3.stp"
+	(model "/Users/colin/Documents/KiCad/Components and Footprints/NSL-32SR2S/NSL-32SR2S.STEP"
 		(offset
-			(xyz 2 2 3)
+			(xyz 5 2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -90)
+			(xyz -90 -0 -180)
 		)
 	)
 )

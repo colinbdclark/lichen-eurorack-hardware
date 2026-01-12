@@ -144,7 +144,521 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:NSL-32"
+		(symbol "Lichen:100k_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R8"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Lichen:R_0603"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+				(at 2.286 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100K, 1%, 1/10W, 0603"
+				(at 2.032 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603WAF1003T5E"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "100k"
+				(at 3.81 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "LCSC" "C25803"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100k_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100k_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100k_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:1k_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R9"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k_0603"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Lichen:R_0603"
+				(at -2.54 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+				(at 3.302 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1K, 1%, 1/10W, 0603"
+				(at 1.016 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603WAF1001T5E"
+				(at -2.54 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "1k"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C21190"
+				(at 1.27 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1k_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1k_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1k_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:33pF_C0G_0603_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C3"
+				(at 6.35 -0.0063 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "33pF_C0G_0603_50V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Lichen:C_0603"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "33pF 50V C0G ±5% 0603 MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "CL10C330JB8NNNC"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "33pF C0G"
+				(at 3.81 -0.0063 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1663"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100pF_0603_50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "33pF_C0G_0603_50V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "33pF_C0G_0603_50V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:NSL-32"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -152,23 +666,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "U5"
+				(at -4.826 4.572 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NSL-32"
-				(at 0 -5.08 0)
+			(property "Value" "NSL-32R3 60R@20mA"
+				(at -7.112 4.572 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "OptoDevice:Luna_NSL-32"
+			(property "Footprint" "Lichen:NSL-32"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -445,521 +961,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:100k_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R6"
-				(at -2.54 -1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "100k_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-				(at 2.286 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100K, 1%, 1/10W, 0603"
-				(at 2.032 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "0603WAF1003T5E"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "100k"
-				(at -2.54 1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "JLCPCB ID" "C25803"
-				(at 1.27 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100k_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "100k_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100k_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:1k_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R8"
-				(at 6.35 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1k_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
-				(at -2.54 -16.002 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
-				(at 3.302 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1K, 1%, 1/10W, 0603"
-				(at 1.016 -20.066 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "0603WAF1001T5E"
-				(at -2.54 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "1k"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C21190"
-				(at 1.27 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1k_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1k_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1k_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:33pF_C0G_0603_50V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C4"
-				(at 6.35 -0.0064 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33pF C0G"
-				(at 3.81 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "33pF 50V C0G ±5% 0603 MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "CL10C330JB8NNNC"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "33pF C0G"
-				(at 3.81 -0.0063 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C1663"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100pF_0603_50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "33pF_C0G_0603_50V_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "33pF_C0G_0603_50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:Potentiometer"
+		(symbol "Lichen:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1048,7 +1050,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Potentiometer_0_1"
+			(symbol "R_Potentiometer_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -1085,7 +1087,25 @@
 					)
 				)
 			)
-			(symbol "Potentiometer_1_1"
+			(symbol "R_Potentiometer_1_1"
+				(text "CCW"
+					(at -1.778 2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "CW"
+					(at -1.778 -2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1904,6 +1924,16 @@
 		)
 		(uuid "49f298b1-9671-4555-b1c5-1b7012287ca0")
 	)
+	(text "Vactrol LED connection is backwards,\nbecause the CV has been inverted."
+		(exclude_from_sim no)
+		(at 168.148 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c040e81f-ab26-4024-93c3-a86da42b8015")
+	)
 	(text "CV attuenuator"
 		(exclude_from_sim no)
 		(at 115.316 66.04 0)
@@ -2051,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "354a145a-4f0b-436d-bdd0-36eeeb1770da")
-	)
-	(wire
-		(pts
-			(xy 142.24 95.25) (xy 142.24 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373fbd7c-dc4c-4762-90b8-ea2c14701930")
 	)
 	(wire
 		(pts
@@ -2354,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 82.55) (xy 153.67 99.06)
+			(xy 148.59 82.55) (xy 148.59 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 142.24 95.25)
+			(xy 153.67 93.98) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2404,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 153.67 82.55)
+			(xy 119.38 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 148.59 95.25)
+			(xy 153.67 99.06) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2718,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k_0603"
 			(at 91.44 63.5 90)
 			(effects
 				(font
@@ -2763,7 +2783,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 106.68 67.31 0)
 			(effects
 				(font
@@ -2796,7 +2816,7 @@
 		(at 153.67 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2884,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "1k_0603"
 			(at 223.52 119.38 90)
 			(effects
 				(font
@@ -2949,15 +2969,6 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25804"
-			(at 238.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C21190"
 			(at 241.554 123.19 0)
 			(effects
@@ -3003,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k_0603"
 			(at 73.66 124.46 90)
 			(effects
 				(font
@@ -3068,7 +3079,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 88.9 120.65 0)
 			(effects
 				(font
@@ -3113,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k_0603"
 			(at 33.02 62.23 90)
 			(effects
 				(font
@@ -3178,7 +3189,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 36.83 77.47 0)
 			(effects
 				(font
@@ -3255,15 +3266,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6961"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 181.61 119.38 0)
 			(effects
@@ -3274,6 +3276,15 @@
 			)
 		)
 		(property "Part Number" "TL072CDT"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
 			(at 181.61 119.38 0)
 			(effects
 				(font
@@ -3391,7 +3402,7 @@
 		(at 265.43 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5684abe3-ff7a-4135-95a4-4508174a8c20")
@@ -3411,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lichen:Audio_Jack_Thonkiconn_Mono"
+		(property "Footprint" "Lichen:Audio_Jack_Thonkiconn_Mono_Left_Overhang"
 			(at 264.414 106.172 0)
 			(effects
 				(font
@@ -3495,7 +3506,7 @@
 				)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "100k_0603"
 			(at 195.58 121.92 90)
 			(effects
 				(font
@@ -3561,7 +3572,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 210.82 118.11 0)
 			(effects
 				(font
@@ -3779,7 +3790,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7fdfc93e-f3e0-4a01-aa82-07c95a6aaf63")
@@ -3799,7 +3810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lichen:Audio_Jack_Thonkiconn_Mono"
+		(property "Footprint" "Lichen:Audio_Jack_Thonkiconn_Mono_Left_Overhang"
 			(at 31.496 56.642 0)
 			(effects
 				(font
@@ -3883,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k_0603"
 			(at 74.93 74.93 90)
 			(effects
 				(font
@@ -3948,7 +3959,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3994,7 +4005,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k_0603"
 			(at 91.44 113.03 90)
 			(effects
 				(font
@@ -4059,7 +4070,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -4105,7 +4116,7 @@
 				)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "100k_0603"
 			(at 217.17 106.68 90)
 			(effects
 				(font
@@ -4171,7 +4182,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 232.41 110.49 0)
 			(effects
 				(font
@@ -4252,15 +4263,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6961"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 91.44 124.46 0)
 			(effects
@@ -4271,6 +4273,15 @@
 			)
 		)
 		(property "Part Number" "TL072CDT"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
 			(at 91.44 124.46 0)
 			(effects
 				(font
@@ -4450,7 +4461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:NSL-32")
+		(lib_id "Lichen:NSL-32")
 		(at 151.13 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4652,15 +4663,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6961"
-			(at 91.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 91.44 74.93 0)
 			(effects
@@ -4671,6 +4673,15 @@
 			)
 		)
 		(property "Part Number" "TL072CDT"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -4714,7 +4725,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 99.06 0)
+		(at 160.02 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4723,7 +4735,7 @@
 		(fields_autoplaced yes)
 		(uuid "c795af95-d011-4501-ad20-ce47ee72a435")
 		(property "Reference" "#PWR020"
-			(at 142.24 105.41 0)
+			(at 160.02 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 104.14 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 99.06 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 99.06 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 99.06 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,17 +5051,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Potentiometer")
+		(lib_id "Lichen:R_Potentiometer")
 		(at 115.57 82.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e276ac09-a354-4cb3-9900-8ce79bd882b6")
 		(property "Reference" "RV1"
-			(at 113.03 81.2799 0)
+			(at 113.03 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5070,7 @@
 			)
 		)
 		(property "Value" "B10K"
-			(at 113.03 83.8199 0)
+			(at 113.03 81.2801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Potentiometer_Alpha_RD901_Eurorack"
-			(at 115.57 100.838 0)
+			(at 115.57 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5088,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thonk.co.uk/wp-content/uploads/2017/12/Alpha-9mm-Vertical-T18-RD901F-40-15K-B50K-0057.pdf"
-			(at 116.586 98.552 0)
+			(at 116.586 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5097,7 @@
 			)
 		)
 		(property "Description" "Alpha RD901 Vertical Snap-In Potentiometer"
-			(at 115.316 70.104 0)
+			(at 115.316 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5106,7 @@
 			)
 		)
 		(property "Part Number" "RD901F-40"
-			(at 115.57 96.52 0)
+			(at 115.57 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5115,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiwan Alpha Electronic"
-			(at 116.078 94.488 0)
+			(at 116.078 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5293,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ff024c29-2758-43c8-9420-ef778c23480d")
@@ -5301,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lichen:Audio_Jack_Thonkiconn_Mono"
+		(property "Footprint" "Lichen:Audio_Jack_Thonkiconn_Mono_Left_Overhang"
 			(at 31.496 106.172 0)
 			(effects
 				(font

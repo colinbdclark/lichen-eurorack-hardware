@@ -467,10 +467,26 @@
 				)
 			)
 			(symbol "Transformer_42TM018_1_1"
+				(text "P"
+					(at -0.762 4.318 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "S"
+					(at 0.762 -4.318 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -488,7 +504,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -506,7 +522,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "~"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -524,7 +540,7 @@
 				(pin passive line
 					(at 5.08 5.08 180)
 					(length 2.54)
-					(name "~"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -542,7 +558,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "~"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -560,7 +576,7 @@
 				(pin passive line
 					(at 5.08 -5.08 180)
 					(length 2.54)
-					(name "~"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1675,6 +1691,7 @@
 	(symbol
 		(lib_id "Lichen:Transformer_42TM018")
 		(at 168.91 110.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)

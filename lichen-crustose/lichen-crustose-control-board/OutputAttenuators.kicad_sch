@@ -888,7 +888,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
+			(property "Footprint" "Lichen:R_0603"
 				(at -2.54 -12.7 0)
 				(effects
 					(font
@@ -898,7 +898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2405,7 +2405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "15b40043-c1ab-4a1d-abd0-bb05b98ba18c")
@@ -2842,7 +2842,7 @@
 				)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "1k_0603"
 			(at 97.79 133.35 90)
 			(effects
 				(font
@@ -2907,15 +2907,6 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25804"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C21190"
 			(at 115.824 137.16 0)
 			(effects
@@ -2945,7 +2936,7 @@
 		(at 123.19 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "952e337a-25c4-4cc5-8749-41867ed084eb")
@@ -3201,7 +3192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 91.44 123.19 0)
 			(effects
 				(font
@@ -3276,7 +3267,7 @@
 		(at 123.19 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d0467c1a-c285-45a8-90c5-133c97ea7162")
@@ -3380,7 +3371,7 @@
 				)
 			)
 		)
-		(property "Value" "10k_0603"
+		(property "Value" "1k_0603"
 			(at 96.52 92.71 90)
 			(effects
 				(font
@@ -3443,15 +3434,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "JLCPCB ID" "C25804"
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C21190"

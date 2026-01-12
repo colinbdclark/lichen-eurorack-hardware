@@ -16,9 +16,9 @@
 			)
 		)
 	)
-	(property "Value" "B10k_Dual"
-		(at 0.3 12.01 180)
-		(layer "F.Fab")
+	(property "Value" "B10K_Dual"
+		(at 0 5.77 180)
+		(layer "F.SilkS")
 		(uuid "3c7f0cf7-0019-4c7a-902c-a0e66d5925d9")
 		(effects
 			(font
@@ -272,21 +272,23 @@
 			)
 		)
 	)
-	(pad "" thru_hole oval
-		(at -4.75 0 180)
-		(size 2.72 3.24)
+	(pad "" thru_hole rect
+		(at -4.75 0 270)
+		(size 2.8 2.8)
 		(drill oval 1.1 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "43737034-167d-4d3d-a43c-6ba4bbe04bfd")
+		(solder_mask_margin 0.0762)
+		(uuid "07648c20-9d30-41ce-861a-9ce1c5ba09bb")
 	)
-	(pad "" thru_hole oval
-		(at 4.75 0 180)
-		(size 2.72 3.24)
+	(pad "" thru_hole rect
+		(at 4.75 0 270)
+		(size 2.8 2.8)
 		(drill oval 1.1 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4d5831ec-0194-4892-93a6-9b3648054fe2")
+		(solder_mask_margin 0.0762)
+		(uuid "e6a38e00-a7e9-421d-8590-c1938eef9e64")
 	)
 	(pad "1" thru_hole rect
 		(at -2.5 7.5 180)

@@ -1260,7 +1260,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:Schottky_Diode"
+		(symbol "Lichen:Schottky_Diode_JLC_Basic"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1287,7 +1287,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1296,7 +1296,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301604_STMicroelectronics-STPS1L30U_C222239.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586172667489079296"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1314,7 +1314,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "STMicroelectronics"
+			(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1323,7 +1323,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "STPS1L30U"
+			(property "Part Number" "SS34"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1332,7 +1332,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB ID" "C222239"
+			(property "LCSC" "C8678"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1359,7 +1359,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Schottky_Diode_0_1"
+			(symbol "Schottky_Diode_JLC_Basic_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1397,7 +1397,7 @@
 					)
 				)
 			)
-			(symbol "Schottky_Diode_1_1"
+			(symbol "Schottky_Diode_JLC_Basic_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2417,9 +2417,9 @@
 		)
 		(uuid "0b8f7efd-c2ea-4535-ab66-08243176155a")
 	)
-	(text "Note, in paults' schematic,\nthe ferrite bead he uses is a Murata BLM21PG221SN1D\nwhich is 220R@100MHz.\nThis part (120R@100MHz) is substituted because it's JLC Basic,\nbut may not be as suitable a part."
+	(text "Note, in paults' schematic,\nthe ferrite bead he uses is a Murata BLM21PG221SN1D\nwhich is 220R@100MHz.\nThis part (120R@100MHz) is substituted because it's JLC Basic,\nbut may not be as suitable a part.\nHe also specifies STM STPS1L30U for the Schottky diode, which has been\nsubstituted here for a JLC basic Schottkey diode instead."
 		(exclude_from_sim no)
-		(at 165.1 72.136 0)
+		(at 164.846 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3066,7 +3066,7 @@
 		(at 128.27 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1af94630-6b71-4a47-9451-dfa1e926fd8b")
@@ -3312,7 +3312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Schottky_Diode")
+		(lib_id "Lichen:Schottky_Diode_JLC_Basic")
 		(at 165.1 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301604_STMicroelectronics-STPS1L30U_C222239.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586172667489079296"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "STPS1L30U"
+		(property "Part Number" "SS34"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C222239"
+		(property "LCSC" "C8678"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -3479,7 +3479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Schottky_Diode")
+		(lib_id "Lichen:Schottky_Diode_JLC_Basic")
 		(at 165.1 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3504,7 +3504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -3513,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301604_STMicroelectronics-STPS1L30U_C222239.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586172667489079296"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -3531,7 +3531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -3540,7 +3540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "STPS1L30U"
+		(property "Part Number" "SS34"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -3549,16 +3549,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C222239"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" "C222239"
+		(property "LCSC" "C8678"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -5015,10 +5006,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0161f5d-3efd-4f79-89ee-1258533f50dd")
+			(uuid "f0161f5d-3efd-4f79-89ee-1258533f50de")
 		)
 		(pin "2"
-			(uuid "82790539-18fe-43ad-baea-51d3bbecd90c")
+			(uuid "82790539-18fe-43ad-baea-51d3bbecd90d")
 		)
 		(instances
 			(project ""

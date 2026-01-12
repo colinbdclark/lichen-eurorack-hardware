@@ -395,451 +395,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_Dual"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Dual"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Dual_0_1"
-				(rectangle
-					(start -8.89 -1.524)
-					(end -3.81 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -5.842 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 0.508) (xy -5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 0.508) (xy -4.064 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 0.508) (xy -3.048 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy -1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.508) (xy 3.048 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 0.508) (xy 4.064 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -1.524)
-					(end 8.89 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.508) (xy 5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 0.508) (xy 6.096 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Dual_1_1"
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 2.54 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 0)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 1.27)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Lichen:10k_0603"
 			(pin_numbers
 				(hide yes)
@@ -868,7 +423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
+			(property "Footprint" "Lichen:R_0603"
 				(at -2.54 -12.7 0)
 				(effects
 					(font
@@ -878,7 +433,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1219,7 +774,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
+			(property "Footprint" "Lichen:R_0603"
 				(at -0.762 -14.986 0)
 				(effects
 					(font
@@ -1355,7 +910,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:Potentiometer"
+		(symbol "Lichen:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1444,7 +999,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Potentiometer_0_1"
+			(symbol "R_Potentiometer_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -1481,7 +1036,25 @@
 					)
 				)
 			)
-			(symbol "Potentiometer_1_1"
+			(symbol "R_Potentiometer_1_1"
+				(text "CCW"
+					(at -1.778 2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "CW"
+					(at -1.778 -2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1529,6 +1102,501 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:R_Potentiometer_Dual"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV3"
+				(at -6.604 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "A10k_Dual"
+				(at 6.858 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
+				(at 6.858 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
+				(at 6.604 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual potentiometer"
+				(at -0.254 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Alpha"
+				(at 0 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RD90F-40"
+				(at 0 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Dual_0_1"
+				(rectangle
+					(start -8.89 -1.524)
+					(end -3.81 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -5.842 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 0.508) (xy -5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 0.508) (xy -4.064 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 0.508) (xy -3.048 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.508) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy -1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.508) (xy 3.048 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0.508) (xy 4.064 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.524)
+					(end 8.89 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.508) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 0.508) (xy 6.096 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Dual_1_1"
+				(text "CCW"
+					(at -8.128 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CW"
+					(at -4.318 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CCW"
+					(at 4.572 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CW"
+					(at 8.382 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 0)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3162,15 +3230,6 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" " C23186"
-			(at 81.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C23186"
 			(at 98.298 74.168 0)
 			(effects
@@ -3318,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 198.12 90.17 90)
 			(effects
 				(font
@@ -3337,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -3408,11 +3467,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
+		(lib_id "Lichen:R_Potentiometer_Dual")
 		(at 100.33 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1aebc70c-f85d-4f92-9a73-771f3a84bba4")
@@ -3433,7 +3492,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-			(at 106.68 70.485 0)
+			(at 107.188 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3501,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-			(at 106.68 70.485 0)
+			(at 106.934 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3510,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at 100.33 68.58 0)
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3519,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
-			(at 100.33 68.58 90)
+			(at 100.33 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3528,7 @@
 			)
 		)
 		(property "Part Number" "RD90F-40"
-			(at 100.33 68.58 90)
+			(at 100.33 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3581,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k_0603"
+		(property "Value" "5.1k_0603"
 			(at 83.82 129.54 90)
 			(effects
 				(font
@@ -3559,7 +3618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "4k7, 1%, 1/10W, 0603"
+		(property "Specifications" "5.1K, 1%, 1/10W, 0603"
 			(at 91.694 129.54 0)
 			(effects
 				(font
@@ -3595,15 +3654,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "JLCPCB ID" "C23162"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C23186"
@@ -3698,18 +3748,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Potentiometer")
+		(lib_id "Lichen:R_Potentiometer")
 		(at 71.12 149.86 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "320939e2-fa86-4746-af88-05b98b671373")
 		(property "Reference" "RV1"
-			(at 68.58 151.1301 0)
+			(at 67.31 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3768,7 @@
 			)
 		)
 		(property "Value" "B10K"
-			(at 68.58 148.5901 0)
+			(at 67.31 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 198.12 72.39 90)
 			(effects
 				(font
@@ -3827,7 +3877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -4151,7 +4201,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 83.82 147.32 90)
 			(effects
 				(font
@@ -4170,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 83.82 149.86 0)
 			(effects
 				(font
@@ -4343,7 +4393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707056569573376"
 			(at 217.17 72.39 0)
 			(effects
 				(font
@@ -4442,7 +4492,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k_0603"
+		(property "Value" "5.1k_0603"
 			(at 83.82 119.38 90)
 			(effects
 				(font
@@ -4479,7 +4529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "4k7, 1%, 1/10W, 0603"
+		(property "Specifications" "5.1K, 1%, 1/10W, 0603"
 			(at 91.694 119.38 0)
 			(effects
 				(font
@@ -4515,15 +4565,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "JLCPCB ID" "C23162"
-			(at 83.82 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C23186"
@@ -4685,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 198.12 43.18 90)
 			(effects
 				(font
@@ -4704,7 +4745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -4859,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 83.82 173.99 90)
 			(effects
 				(font
@@ -4878,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 83.82 176.53 0)
 			(effects
 				(font
@@ -5033,7 +5074,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k_0603"
+		(property "Value" "5.1k_0603"
 			(at 81.28 80.01 90)
 			(effects
 				(font
@@ -5070,7 +5111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "4k7, 1%, 1/10W, 0603"
+		(property "Specifications" "5.1K, 1%, 1/10W, 0603"
 			(at 89.154 80.01 0)
 			(effects
 				(font
@@ -5106,15 +5147,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "JLCPCB ID" "C23162"
-			(at 81.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C23186"
@@ -5290,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 215.9 39.37 90)
 			(effects
 				(font
@@ -5309,7 +5341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 215.9 36.83 0)
 			(effects
 				(font
@@ -5859,7 +5891,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 217.17 86.36 90)
 			(effects
 				(font
@@ -5878,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 217.17 83.82 0)
 			(effects
 				(font
@@ -6081,16 +6113,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
+		(lib_id "Lichen:R_Potentiometer_Dual")
 		(at 189.23 68.58 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d11207e7-27c9-4179-aa7d-5350c709c860")
 		(property "Reference" "RV10"
-			(at 183.134 61.976 0)
+			(at 183.134 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6131,7 @@
 			)
 		)
 		(property "Value" "B10k_Dual"
-			(at 183.134 75.438 0)
+			(at 183.134 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6139,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-			(at 187.325 74.93 0)
+			(at 177.292 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6148,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-			(at 187.325 74.93 0)
+			(at 180.086 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6157,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at 189.23 68.58 0)
+			(at 174.498 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6166,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
-			(at 189.23 68.58 90)
+			(at 171.958 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6175,7 @@
 			)
 		)
 		(property "Part Number" "RD90F-40"
-			(at 189.23 68.58 90)
+			(at 169.672 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,16 +6211,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
-		(at 121.92 143.51 180)
+		(lib_id "Lichen:R_Potentiometer_Dual")
+		(at 121.92 143.51 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d141a7ea-32fa-4408-8783-e06d37af008d")
 		(property "Reference" "RV4"
-			(at 128.524 137.414 0)
+			(at 115.316 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6229,7 @@
 			)
 		)
 		(property "Value" "A10k_Dual"
-			(at 115.062 137.414 0)
+			(at 128.778 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6237,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-			(at 115.57 141.605 0)
+			(at 128.778 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6246,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-			(at 115.57 141.605 0)
+			(at 128.524 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6255,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at 121.92 143.51 0)
+			(at 121.666 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6264,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
-			(at 121.92 143.51 90)
+			(at 121.92 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6273,7 @@
 			)
 		)
 		(property "Part Number" "RD90F-40"
-			(at 121.92 143.51 90)
+			(at 121.92 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,12 +6441,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Potentiometer")
+		(lib_id "Lichen:R_Potentiometer")
 		(at 71.12 176.53 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dd8dc56c-1f20-42e7-8c23-d39eb35643a3")
@@ -6516,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "10k_0603"
 			(at 198.12 59.69 90)
 			(effects
 				(font
@@ -6535,7 +6569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 198.12 62.23 0)
 			(effects
 				(font

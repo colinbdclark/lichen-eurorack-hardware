@@ -405,13 +405,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R6"
-				(at -2.54 -1.2701 0)
+			(property "Reference" "R8"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "100k_0603"
@@ -423,7 +422,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
+			(property "Footprint" "Lichen:R_0603"
 				(at -2.54 -12.7 0)
 				(effects
 					(font
@@ -472,7 +471,7 @@
 				)
 			)
 			(property "Display" "100k"
-				(at -2.54 1.2699 0)
+				(at 3.81 2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -480,7 +479,7 @@
 					(justify right)
 				)
 			)
-			(property "JLCPCB ID" "C25803"
+			(property "LCSC" "C25803"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -1556,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 162.56) (xy 96.52 162.56)
+			(xy 87.63 162.56) (xy 95.25 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 96.52 91.44)
+			(xy 95.25 62.23) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 104.14) (xy 99.06 104.14)
+			(xy 95.25 104.14) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 104.14) (xy 96.52 162.56)
+			(xy 95.25 104.14) (xy 95.25 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 99.06 91.44)
+			(xy 95.25 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 62.23) (xy 96.52 62.23)
+			(xy 87.63 62.23) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +2474,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -2649,7 +2648,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -2756,7 +2755,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 92.71 148.59 0)
 			(effects
 				(font
@@ -2995,7 +2994,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 77.47 163.83 0)
 			(effects
 				(font
@@ -3676,7 +3675,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 161.29 125.73 0)
 			(effects
 				(font
@@ -3783,7 +3782,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 77.47 161.29 0)
 			(effects
 				(font
@@ -3890,7 +3889,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 161.29 72.39 0)
 			(effects
 				(font
@@ -3996,7 +3995,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 77.47 63.5 0)
 			(effects
 				(font
@@ -4102,7 +4101,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 67.31 57.15 0)
 			(effects
 				(font
@@ -4533,7 +4532,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 67.31 157.48 0)
 			(effects
 				(font
@@ -4640,7 +4639,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 142.24 76.2 0)
 			(effects
 				(font
@@ -4747,7 +4746,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -4920,7 +4919,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -5066,7 +5065,7 @@
 		(at 101.6 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eac1470f-a148-4cc3-ba42-fbe9ed0cace4")
@@ -5243,7 +5242,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" "C25803"
+		(property "LCSC" "C25803"
 			(at 143.51 129.54 0)
 			(effects
 				(font
