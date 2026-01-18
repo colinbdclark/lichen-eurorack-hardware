@@ -253,7 +253,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100nF_0402_16V"
+			(property "Value" "100nF"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -287,16 +287,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "100nF 50V X7R ±10% 0402"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -1255,7 +1245,7 @@
 					)
 				)
 			)
-			(property "Value" "5k1_0603"
+			(property "Value" "5.1K"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -1264,7 +1254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
+			(property "Footprint" "Lichen:R_0603"
 				(at -0.762 -14.986 0)
 				(effects
 					(font
@@ -1312,7 +1302,7 @@
 					(hide yes)
 				)
 			)
-			(property "Display" "5.1K"
+			(property "Display" "5K1"
 				(at 3.81 1.016 0)
 				(effects
 					(font
@@ -5245,7 +5235,7 @@
 				)
 			)
 		)
-		(property "Value" "470R_0402"
+		(property "Value" "470R"
 			(at 223.52 101.6 90)
 			(effects
 				(font
@@ -5351,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Value" "220R_0402"
+		(property "Value" "220R"
 			(at 201.93 105.41 90)
 			(effects
 				(font
@@ -5458,7 +5448,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1_0603"
+		(property "Value" "5.1K"
 			(at 73.66 60.96 90)
 			(effects
 				(font
@@ -5515,7 +5505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "5.1K"
+		(property "Display" "5K1"
 			(at 73.66 54.61 90)
 			(effects
 				(font
@@ -5667,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Value" "7k7_0603"
+		(property "Value" "4.7K"
 			(at 76.2 115.57 90)
 			(effects
 				(font
@@ -5724,22 +5714,12 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "4.7k"
+		(property "Display" "4K7"
 			(at 76.2 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Specifications" "4k7, 1%, 1/10W, 0603"
-			(at 68.326 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "JLCPCB ID" "C23162"
@@ -5784,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Value" "220R_0402"
+		(property "Value" "220R"
 			(at 201.93 115.57 90)
 			(effects
 				(font
@@ -6794,7 +6774,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1_0603"
+		(property "Value" "5.1K"
 			(at 73.66 58.42 90)
 			(effects
 				(font
@@ -6851,7 +6831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "5.1K"
+		(property "Display" "5K1"
 			(at 73.66 64.77 90)
 			(effects
 				(font
@@ -6901,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7_0603"
+		(property "Value" "4.7K"
 			(at 76.2 118.11 90)
 			(effects
 				(font
@@ -6958,22 +6938,12 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "4.7k"
+		(property "Display" "4K7"
 			(at 76.2 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Specifications" "4k7, 1%, 1/10W, 0603"
-			(at 68.326 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C23162"
@@ -7291,7 +7261,7 @@
 				)
 			)
 		)
-		(property "Value" "10R_0402"
+		(property "Value" "10R"
 			(at 201.93 64.77 90)
 			(effects
 				(font
@@ -7927,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Value" "33R_0402"
+		(property "Value" "33R"
 			(at 201.93 67.31 90)
 			(effects
 				(font
