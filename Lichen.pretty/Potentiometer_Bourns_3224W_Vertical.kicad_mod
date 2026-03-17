@@ -1,0 +1,222 @@
+(footprint "Potentiometer_Bourns_3224W_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Bourns 3224W, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
+	(tags "Potentiometer vertical Bourns 3224W")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "a8e18f58-4112-4797-8887-aa21a97578f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Bourns_3224W_Vertical"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "b7196eaa-b5b1-48ba-a54e-cd88a0d6f375")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57ad8a30-907a-48e1-8f23-c80834a62d24")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbb82e1c-5c4a-44ac-88a2-9341fcaadf19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.51 -1.86)
+		(end -2.13 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b0cd9c5-ff25-41c5-8120-4c03042cd420")
+	)
+	(fp_line
+		(start -2.51 1.86)
+		(end -2.51 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a116b59a-f535-45da-a225-a509f508026b")
+	)
+	(fp_line
+		(start -1.23 1.86)
+		(end -2.51 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd1c4ce3-45b1-4059-873e-fb67bb95d98b")
+	)
+	(fp_line
+		(start -0.37 -1.86)
+		(end 0.37 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd0cf258-81cc-48e9-bb04-7a9cd6328b87")
+	)
+	(fp_line
+		(start 2.13 -1.86)
+		(end 2.51 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6c62d98-4323-49c3-8ae1-48c87fad927a")
+	)
+	(fp_line
+		(start 2.51 -1.86)
+		(end 2.51 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28ff918b-7fde-4b6a-9352-6070558b97a3")
+	)
+	(fp_line
+		(start 2.51 1.86)
+		(end 1.23 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da3d6a8b-8e22-44a2-b9c5-c5277e96a70d")
+	)
+	(fp_rect
+		(start -2.65 -2.5)
+		(end 2.65 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79978fb6-93e6-4651-92dc-364003a7a568")
+	)
+	(fp_line
+		(start -0.723 0.081)
+		(end -1.769 1.127)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92ec262e-c4af-4772-a05e-a8b5a25ca88e")
+	)
+	(fp_line
+		(start -0.631 0.173)
+		(end -1.677 1.219)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "594c833e-7965-4a12-b369-8e50c79e40de")
+	)
+	(fp_rect
+		(start -2.4 -1.75)
+		(end 2.4 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3dc80407-7214-4010-a88f-4fca414e969d")
+	)
+	(fp_circle
+		(center -1.2 0.65)
+		(end -0.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "95d9bd05-a23f-4242-8985-86f10567c264")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.6 0 0)
+		(layer "F.Fab")
+		(uuid "9d8814ab-9c21-4b7b-9640-cdd910761e13")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.25 -1.45)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "265eab2b-99fb-4bb5-a21a-ef2397e404ab")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.45)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15625)
+		(uuid "fe7aadec-95c4-49c4-bdef-26e56c41f038")
+	)
+	(pad "3" smd roundrect
+		(at -1.25 -1.45)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "a7f9c449-0456-4d23-a6dc-f8c698fcba16")
+	)
+	(embedded_fonts no)
+	(model "/Users/colin/Documents/KiCad/Components and Footprints/Bourns-3224W-1-503E/3224W.stp"
+		(offset
+			(xyz 0.24 1.75 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

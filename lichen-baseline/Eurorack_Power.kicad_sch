@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω@100MHz"
+		(property "Value" "220R@100MHz"
 			(at 137.16 63.754 90)
 			(effects
 				(font

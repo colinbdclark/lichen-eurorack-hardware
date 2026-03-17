@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "da9564be-6fa0-4444-bea2-a163476cf5b2")
+	(uuid "445529b8-a1de-44cc-8578-75cde8431584")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Lichen:10uF_0805_50V"
+		(symbol "Lichen:10uF_1206_50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -16,8 +16,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C2"
-				(at 2.54 1.2638 0)
+			(property "Reference" "C1"
+				(at 2.54 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,8 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10uF_0805_50V"
-				(at 6.858 10.668 0)
+			(property "Value" "10uF"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Capacitor:C_0805"
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 				(at -2.286 -9.906 0)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V 10uF X5R ±10% 0805 MLCC SMD"
+			(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
 				(at 16.256 -18.796 0)
 				(effects
 					(font
@@ -62,17 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "Specifications" "50V 10uF X5R ±10% 0805 MLCC SMD"
-				(at -2.286 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at -2.286 -13.462 0)
 				(effects
 					(font
@@ -82,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "GRM21BR61H106KE43L"
+			(property "Part Number" "CL31A106KBHNNNE"
 				(at -2.286 -14.986 0)
 				(effects
 					(font
@@ -101,7 +91,7 @@
 					(justify left)
 				)
 			)
-			(property "LCSC" "C440198"
+			(property "LCSC" "C13585"
 				(at 2.032 -16.764 0)
 				(effects
 					(font
@@ -128,7 +118,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10uF_0805_50V_0_1"
+			(symbol "10uF_1206_50V_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -154,7 +144,7 @@
 					)
 				)
 			)
-			(symbol "10uF_0805_50V_1_1"
+			(symbol "10uF_1206_50V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -514,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(property "Footprint" "Lichen:R_0603"
 				(at 14.732 -18.288 0)
 				(effects
 					(font
@@ -696,7 +686,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:Schottky_Diode"
+		(symbol "Lichen:Schottky_Diode_JLC_Basic"
 			(pin_numbers
 				(hide yes)
 			)
@@ -723,7 +713,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -732,7 +722,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301604_STMicroelectronics-STPS1L30U_C222239.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586172667489079296"
 				(at 0 0 0)
 				(effects
 					(font
@@ -750,7 +740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "STMicroelectronics"
+			(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -759,7 +749,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "STPS1L30U"
+			(property "Part Number" "SS34"
 				(at 0 0 0)
 				(effects
 					(font
@@ -768,7 +758,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB ID" "C222239"
+			(property "LCSC" "C8678"
 				(at 0 0 0)
 				(effects
 					(font
@@ -795,7 +785,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Schottky_Diode_0_1"
+			(symbol "Schottky_Diode_JLC_Basic_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -833,7 +823,7 @@
 					)
 				)
 			)
-			(symbol "Schottky_Diode_1_1"
+			(symbol "Schottky_Diode_JLC_Basic_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1302,9 +1292,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "The bulk capacitance is tripled here \nbecause these ceramic caps derate to \n3.54V with an 11.9V DC bias (-64.6%).\nSchottkys diodes have been substituted \nwith a JLC Basic part."
+		(exclude_from_sim no)
+		(at 115.316 454.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dc1c481-2981-44ea-9461-91870185d416")
+	)
+	(text "Power circuit adapted from Paul Schreiber."
+		(exclude_from_sim no)
+		(at 95.25 444.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "354834c8-b928-4710-816b-aab833f32fcd")
+	)
 	(text "Note, in paults' schematic,\nthe ferrite bead he uses is a Murata BLM21PG221SN1D\nwhich is 220R@100MHz.\nThis part (120R@100MHz) is substituted because it's JLC Basic,\nbut may not be as suitable a part."
 		(exclude_from_sim no)
-		(at 164.084 70.612 0)
+		(at 115.57 466.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1312,59 +1323,140 @@
 		)
 		(uuid "35fbe945-844b-493f-a262-0d552afeec6a")
 	)
-	(text "Power circuit from Paul Schreiber."
-		(exclude_from_sim no)
-		(at 151.638 128.016 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2c71ccc-9354-4b38-8bb4-2afe13b6a567")
-	)
 	(text "+12V/-12V Rails"
 		(exclude_from_sim no)
-		(at 167.132 124.714 0)
+		(at 114.3 439.928 0)
 		(effects
 			(font
 				(face "Helvetica")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "e4b5f2f6-31be-4b06-935b-02e2cd1a57f8")
+		(uuid "3f5373f4-aaa8-45ca-a9c9-682255c25e5f")
 	)
 	(junction
-		(at 172.72 102.87)
+		(at 130.81 398.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89b1e254-6c0b-47af-8048-b64bad8bf431")
+		(uuid "05c87418-cb09-4130-97e5-1c1aa5c87a4c")
 	)
 	(junction
-		(at 172.72 111.76)
+		(at 137.16 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a95c81a5-0cc7-456c-a4bf-b951f371ee29")
+		(uuid "4bcb3b06-faaf-4130-bf18-8db24279e597")
 	)
 	(junction
-		(at 187.96 87.63)
+		(at 137.16 398.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6615693-133f-4f93-a16c-4a188a2f6de9")
+		(uuid "6cdd40c7-e00f-4d2a-8702-e5ad12023cd0")
+	)
+	(junction
+		(at 143.51 396.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a610ede-6de4-4844-bc74-d02ffb30d380")
+	)
+	(junction
+		(at 143.51 424.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "906ee5c4-c0df-4cca-b048-53fd7e90b44c")
+	)
+	(junction
+		(at 137.16 433.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5cb41ed-a24d-43ca-99da-e46ad279dd82")
+	)
+	(junction
+		(at 137.16 407.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab7c59ba-45cd-482a-ba0b-2cf08742be8d")
+	)
+	(junction
+		(at 143.51 421.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33726f0-bcfb-409f-9264-61d54b0b6055")
+	)
+	(junction
+		(at 130.81 424.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb0e41f0-eed1-41be-899e-e8a5f20161cc")
+	)
+	(junction
+		(at 143.51 398.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd70d1f6-a1cf-44e8-b0d7-ed66b3736661")
 	)
 	(wire
 		(pts
-			(xy 172.72 111.76) (xy 172.72 110.49)
+			(xy 137.16 407.67) (xy 143.51 407.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09b804fc-beaa-42eb-9bb0-c9211ad2b1ca")
+		(uuid "070d33d9-1749-4f94-b3c5-f6686c7f7e56")
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 148.59 87.63)
+			(xy 137.16 424.18) (xy 143.51 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be5af8b-845c-4f77-9e47-b85b56a6f943")
+	)
+	(wire
+		(pts
+			(xy 143.51 394.97) (xy 143.51 396.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbd16bf-e1ad-4cae-9f21-91887ba270f6")
+	)
+	(wire
+		(pts
+			(xy 143.51 398.78) (xy 143.51 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6e3bcc-e144-4eca-878d-c1448d9d58d8")
+	)
+	(wire
+		(pts
+			(xy 130.81 424.18) (xy 130.81 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29059981-39fd-4e63-8324-f9df5db18f47")
+	)
+	(wire
+		(pts
+			(xy 130.81 398.78) (xy 130.81 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294daa9c-4f4f-4561-b7ce-71954add180e")
+	)
+	(wire
+		(pts
+			(xy 101.6 398.78) (xy 95.25 398.78)
 		)
 		(stroke
 			(width 0)
@@ -1374,17 +1466,57 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 110.49) (xy 187.96 111.76)
+			(xy 137.16 406.4) (xy 137.16 407.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "442fc106-d97b-4a4f-9828-dd58e4216b15")
+		(uuid "2c784d32-3181-4504-ab4b-0dff67082eae")
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 135.89 106.68)
+			(xy 137.16 424.18) (xy 137.16 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3709a8cf-1823-4b93-8eae-c9bde40c80b3")
+	)
+	(wire
+		(pts
+			(xy 137.16 398.78) (xy 137.16 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae51836-0cae-4d98-97fe-fd0c04b22eb0")
+	)
+	(wire
+		(pts
+			(xy 110.49 424.18) (xy 116.84 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba43a6f-f119-4eae-a431-62d19e1699c8")
+	)
+	(wire
+		(pts
+			(xy 137.16 398.78) (xy 143.51 398.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db823d5-92f7-4831-b620-59254e0b4ec8")
+	)
+	(wire
+		(pts
+			(xy 95.25 417.83) (xy 83.82 417.83)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1526,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 149.86 102.87)
+			(xy 143.51 396.24) (xy 143.51 398.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1a7904-e0ea-4027-a48b-a0d065bee4c2")
+	)
+	(wire
+		(pts
+			(xy 97.79 424.18) (xy 102.87 424.18)
 		)
 		(stroke
 			(width 0)
@@ -1404,87 +1546,127 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 172.72 102.87)
+			(xy 83.82 410.21) (xy 95.25 410.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d40d1ce-f990-4e28-82bd-9d3ab29e8191")
+		(uuid "556aa690-930e-46d9-8126-e97ffefaeed7")
 	)
 	(wire
 		(pts
-			(xy 168.91 87.63) (xy 187.96 87.63)
+			(xy 137.16 434.34) (xy 137.16 433.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "610ed069-1f76-495d-ad8a-7caa2436f436")
+		(uuid "626a40b3-ecc4-4761-a686-11e9d64f4d56")
 	)
 	(wire
 		(pts
-			(xy 168.91 102.87) (xy 172.72 102.87)
+			(xy 137.16 431.8) (xy 137.16 433.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c4e0a83-d993-427f-b46a-afbcf1c0ae3e")
+		(uuid "629183d9-b99f-4e6a-a6b9-fe261fe8d811")
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 135.89 99.06)
+			(xy 143.51 420.37) (xy 143.51 421.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d8ffbb7-9bfe-42ba-8a32-c8806387a9d0")
+		(uuid "684cea96-2223-456c-98e1-686b776edfa8")
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 161.29 102.87)
+			(xy 130.81 424.18) (xy 137.16 424.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e1c63d7-49b1-42e7-a401-1f1a5250fbaa")
+		(uuid "7be27138-0989-4171-a3d0-597234615f2f")
 	)
 	(wire
 		(pts
-			(xy 187.96 87.63) (xy 187.96 86.36)
+			(xy 124.46 398.78) (xy 130.81 398.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ee74943-1d22-41b1-ad7b-aea3b93cf6b2")
+		(uuid "93dedfff-a53b-4a16-acdb-306c809d9f8f")
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 172.72 111.76)
+			(xy 130.81 398.78) (xy 137.16 398.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8a129de-7f86-4c61-a8fe-7de12c4edf89")
+		(uuid "94facc96-2927-469a-8208-69b93480aed5")
 	)
 	(wire
 		(pts
-			(xy 187.96 87.63) (xy 187.96 105.41)
+			(xy 130.81 433.07) (xy 137.16 433.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9bf9d3b-8a1b-44d0-b767-7540c246de9f")
+		(uuid "964e4434-171e-4600-832e-bec687ac8ebf")
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 157.48 87.63)
+			(xy 130.81 407.67) (xy 137.16 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce97543-ae16-4aee-85a3-602c1ac670d8")
+	)
+	(wire
+		(pts
+			(xy 130.81 406.4) (xy 130.81 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc8db4f-a20c-4eaa-a5d4-82719e4948f0")
+	)
+	(wire
+		(pts
+			(xy 97.79 414.02) (xy 83.82 414.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c5e296-8c37-4bd5-8151-354338e56329")
+	)
+	(wire
+		(pts
+			(xy 143.51 406.4) (xy 143.51 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3d310a-c1c9-444b-8f92-2de1d5297963")
+	)
+	(wire
+		(pts
+			(xy 109.22 398.78) (xy 116.84 398.78)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1676,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 148.59 114.3)
+			(xy 143.51 426.72) (xy 143.51 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5148af-35a0-4230-b6c0-3f66418ae737")
+	)
+	(wire
+		(pts
+			(xy 95.25 417.83) (xy 95.25 426.72)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1696,27 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 87.63) (xy 148.59 99.06)
+			(xy 137.16 433.07) (xy 143.51 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10c8d0d-b297-4a76-a320-731012b48355")
+	)
+	(wire
+		(pts
+			(xy 124.46 424.18) (xy 130.81 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b330f9bd-34cf-4834-8a57-78b9d86c8152")
+	)
+	(wire
+		(pts
+			(xy 95.25 398.78) (xy 95.25 410.21)
 		)
 		(stroke
 			(width 0)
@@ -1514,36 +1726,66 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 111.76) (xy 187.96 111.76)
+			(xy 143.51 421.64) (xy 143.51 424.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd99cc5d-2e41-4ac7-a23c-5b3586c04de1")
+		(uuid "bcc45f5c-95bc-4386-9d98-cc9019a0db72")
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 172.72 102.87)
+			(xy 97.79 424.18) (xy 97.79 414.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e480d8f6-5754-48fd-8609-e297fed3b854")
+		(uuid "d4135720-7270-404b-8d02-5eaec3925b6e")
+	)
+	(wire
+		(pts
+			(xy 137.16 407.67) (xy 137.16 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5284e53-ad2a-4078-844d-4898008a58b8")
+	)
+	(wire
+		(pts
+			(xy 130.81 431.8) (xy 130.81 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe7fbba-fc32-44dd-a1d5-40c84a031285")
+	)
+	(wire
+		(pts
+			(xy 143.51 433.07) (xy 143.51 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cf8ebb-1dea-4b04-b3a3-2004e7d8082d")
 	)
 	(label "+12V_In"
-		(at 144.78 99.06 180)
+		(at 85.09 410.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8771324c-4ce1-4700-b3d7-2b49f51743b7")
 	)
 	(label "-12V_In"
-		(at 137.16 102.87 0)
+		(at 83.82 414.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1553,25 +1795,25 @@
 		(uuid "9905ad32-6650-43de-ab40-491afa2a06a6")
 	)
 	(symbol
-		(lib_id "Lichen:10uF_0805_50V")
-		(at 172.72 107.95 0)
+		(lib_id "Lichen:10uF_1206_50V")
+		(at 137.16 429.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c5d7894-fb9b-4a1a-9c0b-204268297193")
-		(property "Reference" "C1"
-			(at 169.164 106.68 0)
+		(uuid "0e84b6f1-6017-417b-be7b-75150f69c375")
+		(property "Reference" "C29"
+			(at 137.16 420.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10uF_0805_25V"
-			(at 172.72 104.14 0)
+		(property "Value" "10uF"
+			(at 137.16 422.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,8 +1821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Lichen:C_0805"
-			(at 170.18 113.03 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.446 439.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,8 +1831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 107.95 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
+			(at 137.16 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,8 +1840,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 10uF X5R ±10% 0805 MLCC SMD"
-			(at 172.72 107.95 0)
+		(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
+			(at 120.904 448.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,18 +1849,8 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "50V 10uF X5R ±10% 0805 MLCC SMD"
-			(at 170.18 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 170.18 117.348 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 139.446 442.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,8 +1859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM21BR61H106KE43L"
-			(at 170.18 118.872 0)
+		(property "Part Number" "CL31A106KBHNNNE"
+			(at 139.446 444.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,16 +1870,15 @@
 			)
 		)
 		(property "Display" "10uF/50V"
-			(at 168.656 108.966 0)
+			(at 137.16 422.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "LCSC" "C440198"
-			(at 173.99 121.92 0)
+		(property "LCSC" "C13585"
+			(at 135.128 446.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,21 +1887,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "be498914-097c-4cc0-9ba7-af4f40c47dac")
+			(uuid "eb546068-c65c-417c-9138-60ccd73b6a1e")
 		)
 		(pin "2"
-			(uuid "4582cf68-d3be-4343-bd41-291fda96a8d8")
+			(uuid "e8f4ae5d-da39-4144-9f2d-3a6b5289b49b")
 		)
 		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "C1")
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -1678,7 +1903,7 @@
 	)
 	(symbol
 		(lib_id "Lichen:Eurorack_Power_2x5P_Shrouded_TH")
-		(at 128.27 102.87 0)
+		(at 76.2 414.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1686,7 +1911,7 @@
 		(dnp no)
 		(uuid "1af94630-6b71-4a47-9451-dfa1e926fd8b")
 		(property "Reference" "PWR1"
-			(at 123.698 100.33 0)
+			(at 71.628 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1920,7 @@
 			)
 		)
 		(property "Value" "Eurorack_Power"
-			(at 123.698 102.87 0)
+			(at 71.628 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1929,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Eurorack_Power_Shrouded_TH_Staggered_Small"
-			(at 128.27 88.9 0)
+			(at 76.2 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.905 116.205 0)
+			(at 76.835 427.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1947,7 @@
 			)
 		)
 		(property "Description" "Shrouded 2x5 10P TH Header"
-			(at 123.698 105.41 0)
+			(at 71.628 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1956,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 129.032 111.252 0)
+			(at 76.962 422.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1965,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 128.778 113.284 0)
+			(at 76.708 424.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1974,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 128.524 115.316 0)
+			(at 76.454 426.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,6 +2014,12 @@
 		)
 		(instances
 			(project ""
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "PWR1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
 					(reference "PWR1")
 					(unit 1)
@@ -1803,157 +2034,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:10uF_0805_50V")
-		(at 187.96 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "293fdc2f-2099-42e2-8b80-51af20dc94aa")
-		(property "Reference" "C2"
-			(at 189.992 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF_0805_25V"
-			(at 187.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Lichen:C_0805"
-			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 10uF X5R ±10% 0805 MLCC SMD"
-			(at 187.96 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "50V 10uF X5R ±10% 0805 MLCC SMD"
-			(at 185.42 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 185.42 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM21BR61H106KE43L"
-			(at 185.42 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "10uF/50V"
-			(at 189.992 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 189.23 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be498914-097c-4cc0-9ba7-af4f40c47dad")
-		)
-		(pin "2"
-			(uuid "4582cf68-d3be-4343-bd41-291fda96a8d9")
-		)
-		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lichen:Schottky_Diode")
-		(at 165.1 87.63 180)
+		(lib_id "power:PWR_FLAG")
+		(at 143.51 396.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3605eacd-ec36-4489-8cd5-a08839783f0b")
-		(property "Reference" "D1"
-			(at 165.4175 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky"
-			(at 165.4175 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 165.1 87.63 0)
+		(uuid "2318eca9-d47e-4290-8404-1537bdf3fa4d")
+		(property "Reference" "#FLG04"
+			(at 145.415 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,8 +2052,18 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301604_STMicroelectronics-STPS1L30U_C222239.pdf"
-			(at 165.1 87.63 0)
+		(property "Value" "PWR_FLAG"
+			(at 147.32 396.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,8 +2071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 165.1 87.63 0)
+		(property "Datasheet" "~"
+			(at 143.51 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,26 +2080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "STPS1L30U"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" "C222239"
-			(at 165.1 87.63 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 143.51 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,131 +2090,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c73934c-42d9-4b20-97c9-e15ccfae2e48")
-		)
-		(pin "2"
-			(uuid "df1e6fec-ca95-468d-b7e6-b2daf10374e4")
+			(uuid "ab2b288c-1ac7-4806-971d-338605a6771c")
 		)
 		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lichen:Schottky_Diode")
-		(at 165.1 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41db701f-0c87-492b-9cd3-7fb88ceeaae4")
-		(property "Reference" "D2"
-			(at 164.7825 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky"
-			(at 164.7825 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301604_STMicroelectronics-STPS1L30U_C222239.pdf"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "STPS1L30U"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C222239"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" "C222239"
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ec41ff-6f73-46a0-8c32-69a97024f3d0")
-		)
-		(pin "2"
-			(uuid "6b5c07da-37ee-4576-8377-a77853435c06")
-		)
-		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "D2")
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2139,16 +2103,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 114.3 0)
+		(at 137.16 434.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b8de740-10b6-4e2d-b8d6-d2fae272190d")
-		(property "Reference" "#PWR01"
-			(at 148.59 120.65 0)
+		(uuid "28343b60-b161-47dc-9384-9fdf2b597cc5")
+		(property "Reference" "#PWR046"
+			(at 137.16 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,15 +2121,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 119.38 0)
+			(at 137.16 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 114.3 0)
+			(at 137.16 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 114.3 0)
+			(at 137.16 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2148,139 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 114.3 0)
+			(at 137.16 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e67282bd-60d3-466c-90ea-a4a7d88fa796")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 143.51 394.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43fa1915-7d27-4ec2-88cc-011cdbb7ee84")
+		(property "Reference" "#PWR033"
+			(at 143.51 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 143.51 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 143.51 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "885ae458-9c6a-4e57-bdbf-d55e647f7d99")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 426.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b8de740-10b6-4e2d-b8d6-d2fae272190d")
+		(property "Reference" "#PWR038"
+			(at 95.25 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,6 +2292,12 @@
 			(uuid "f9188d6a-2984-4370-a8d0-98a15ce4d3e0")
 		)
 		(instances
+			(project ""
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
 					(reference "#PWR01")
@@ -2211,7 +2314,7 @@
 	)
 	(symbol
 		(lib_id "Lichen:FerriteBead_0603_JLC_Basic_for_Eurorack_Power")
-		(at 153.67 87.63 90)
+		(at 105.41 398.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2220,7 +2323,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f0d5c0-f9c0-40e9-b0ec-7fd73b63a6c9")
 		(property "Reference" "L1"
-			(at 153.67 82.55 90)
+			(at 105.41 393.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2331,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_0603_2A"
-			(at 147.32 87.63 0)
+			(at 99.06 398.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:R_0603"
-			(at 171.958 72.898 0)
+			(at 123.698 384.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2349,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900229559300096"
-			(at 153.67 87.63 0)
+			(at 105.41 398.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,26 +2358,16 @@
 			)
 		)
 		(property "Description" "120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads"
-			(at 170.18 62.484 0)
+			(at 121.92 373.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads"
-			(at 165.354 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 166.878 88.9 0)
+			(at 118.618 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2377,7 @@
 			)
 		)
 		(property "Part Number" "BLM18PG121SN1D"
-			(at 168.402 88.9 0)
+			(at 120.142 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2387,7 @@
 			)
 		)
 		(property "Display" "Ferrite Bead"
-			(at 153.67 85.09 90)
+			(at 105.41 396.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2302,7 +2395,7 @@
 			)
 		)
 		(property "LCSC" "C14709"
-			(at 173.736 85.09 0)
+			(at 125.476 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,86 +2411,20 @@
 		)
 		(instances
 			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "L1")
 					(unit 1)
 				)
 			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 172.72 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ad1d42-4dd5-4360-89ac-ea743f412d79")
-		(property "Reference" "#PWR02"
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 172.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 172.72 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b9ef16b-a52a-45cc-b75e-b5ac915a3bc5")
-		)
-		(instances
 			(project ""
 				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "#PWR02")
+					(reference "L1")
 					(unit 1)
 				)
 			)
 			(project "lichen-crustose"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "#PWR024")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2405,16 +2432,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 114.3 0)
+		(at 137.16 408.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a52ffe5-9f46-432b-bf9f-3c06aaef2c48")
-		(property "Reference" "#PWR03"
-			(at 172.72 120.65 0)
+		(uuid "6e372c10-5cb6-46b6-a0e7-293f571be47c")
+		(property "Reference" "#PWR037"
+			(at 137.16 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,15 +2450,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 119.38 0)
+			(at 137.16 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 114.3 0)
+			(at 137.16 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 114.3 0)
+			(at 137.16 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 114.3 0)
+			(at 137.16 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,18 +2486,325 @@
 			)
 		)
 		(pin "1"
-			(uuid "605a6e7c-989c-4765-a5eb-a32fef139e4f")
+			(uuid "899efb54-d9eb-43ae-aa8a-e68b43993920")
 		)
 		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "#PWR03")
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "#PWR025")
+		)
+	)
+	(symbol
+		(lib_id "Lichen:10uF_1206_50V")
+		(at 143.51 403.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d543ab4-bec9-4e3d-af89-d58e0ca311ce")
+		(property "Reference" "C27"
+			(at 146.05 402.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 146.812 404.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 141.224 413.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
+			(at 143.51 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
+			(at 159.766 422.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 141.224 417.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31A106KBHNNNE"
+			(at 141.224 418.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/50V"
+			(at 146.05 404.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 145.542 420.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28592b9c-a65f-4f90-b6c3-0a4ceeef17ba")
+		)
+		(pin "2"
+			(uuid "db6a4731-0315-47b7-9ea8-af41666beb5f")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:Schottky_Diode_JLC_Basic")
+		(at 120.65 398.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a2a18a-60bb-400c-b905-30d3e8d13505")
+		(property "Reference" "D7"
+			(at 120.9675 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Schottky"
+			(at 120.9675 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 120.65 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586172667489079296"
+			(at 120.65 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 120.65 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
+			(at 120.65 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SS34"
+			(at 120.65 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 120.65 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d0b95ca-169a-4150-8abf-17a3ab812f8f")
+		)
+		(pin "2"
+			(uuid "c725dd2c-ebfd-4fcb-862b-01391222dace")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:10uF_1206_50V")
+		(at 143.51 429.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaa7c936-27f4-4a27-9d1d-53898593e2d2")
+		(property "Reference" "C30"
+			(at 146.05 428.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 146.812 430.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 141.224 439.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
+			(at 143.51 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
+			(at 159.766 448.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 141.224 442.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31A106KBHNNNE"
+			(at 141.224 444.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/50V"
+			(at 146.05 430.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 145.542 446.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2cb2985-5862-4240-ade9-0a9abb483b9a")
+		)
+		(pin "2"
+			(uuid "51579348-394c-460f-a5db-2e29bd02651b")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2477,16 +2812,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 187.96 87.63 270)
+		(at 143.51 421.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f5426cd-b975-4815-8c30-c8afff72520b")
-		(property "Reference" "#FLG02"
-			(at 189.865 87.63 0)
+		(uuid "b49cb11e-50fa-4c91-9c4f-704dc845e483")
+		(property "Reference" "#FLG05"
+			(at 145.415 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,16 +2830,17 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 191.77 87.6299 90)
+			(at 147.32 421.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 87.63 0)
+			(at 143.51 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 87.63 0)
+			(at 143.51 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2858,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 87.63 0)
+			(at 143.51 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,35 +2867,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d893137-4d6a-401d-8d60-ff99d5aa711c")
+			(uuid "7d536eb9-27db-41e2-bb35-ee23ef0154ad")
 		)
 		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "#FLG02")
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 86.36 0)
+		(lib_id "power:-12V")
+		(at 143.51 420.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca2dec42-acaa-49c8-97e2-8df6c2c5a961")
-		(property "Reference" "#PWR04"
-			(at 187.96 90.17 0)
+		(uuid "b9623f22-8d1b-4701-9069-cc2ca0dc49d0")
+		(property "Reference" "#PWR039"
+			(at 143.51 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,8 +2897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 187.96 81.28 0)
+		(property "Value" "-12V"
+			(at 143.51 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 86.36 0)
+			(at 143.51 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 86.36 0)
+			(at 143.51 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,8 +2923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 143.51 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,18 +2933,434 @@
 			)
 		)
 		(pin "1"
-			(uuid "62548b3b-10d6-4c5b-ad82-ae6cc6a5f6d6")
+			(uuid "4a6c0691-75fc-43ef-aa48-86963e2aa2cd")
 		)
 		(instances
-			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "#PWR04")
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "#PWR026")
+		)
+	)
+	(symbol
+		(lib_id "Lichen:Schottky_Diode_JLC_Basic")
+		(at 120.65 424.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4e8bf5-401e-4e1c-9593-110cffa8451d")
+		(property "Reference" "D8"
+			(at 120.3325 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Schottky"
+			(at 120.3325 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 120.65 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586172667489079296"
+			(at 120.65 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 120.65 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
+			(at 120.65 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SS34"
+			(at 120.65 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 120.65 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dcfbacc-0596-4c2b-9299-360b00c46b25")
+		)
+		(pin "2"
+			(uuid "1f7d9ece-7a65-42b0-a69f-307d28b7d47c")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:10uF_1206_50V")
+		(at 130.81 429.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0290f9b-91f8-4a9a-b41b-690d60562b74")
+		(property "Reference" "C28"
+			(at 128.016 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.936 430.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 133.096 439.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
+			(at 130.81 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
+			(at 114.554 448.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 133.096 442.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31A106KBHNNNE"
+			(at 133.096 444.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/50V"
+			(at 127.762 430.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 128.778 446.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c4faa09-43a9-43e5-918a-2af302b5cf02")
+		)
+		(pin "2"
+			(uuid "17bf80f5-eb95-44a0-ae0b-aab392491db1")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:10uF_1206_50V")
+		(at 137.16 403.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4977bb7-442e-4add-a70d-84ca80d10b76")
+		(property "Reference" "C16"
+			(at 137.16 394.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 137.16 397.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.446 413.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
+			(at 137.16 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
+			(at 120.904 422.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 139.446 417.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31A106KBHNNNE"
+			(at 139.446 418.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/50V"
+			(at 137.16 397.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 135.128 420.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fc8a6b8-60cd-400b-a826-1f6c10787b35")
+		)
+		(pin "2"
+			(uuid "0ef3e5b5-3901-4d66-9bda-37cc4883429b")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lichen:10uF_1206_50V")
+		(at 130.81 403.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e90e665f-0106-478f-a33e-9c7797158ae5")
+		(property "Reference" "C15"
+			(at 128.016 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.936 404.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 133.096 413.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
+			(at 130.81 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 50V X5R ±10% 1206 MLCC"
+			(at 114.554 422.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 133.096 417.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31A106KBHNNNE"
+			(at 133.096 418.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF/50V"
+			(at 128.016 404.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 128.778 420.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f79da838-edcf-42f9-9fed-7bdce000ff0e")
+		)
+		(pin "2"
+			(uuid "5038c570-45bd-4b11-9f87-e4eef492dd73")
+		)
+		(instances
+			(project "lichen-stereo-klein-filter-board"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2622,16 +3368,15 @@
 	)
 	(symbol
 		(lib_id "Lichen:FerriteBead_0603_JLC_Basic_for_Eurorack_Power")
-		(at 153.67 102.87 90)
+		(at 106.68 424.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6c54dc6-1eab-49b9-81ed-c974979dfeac")
 		(property "Reference" "L2"
-			(at 153.67 97.79 90)
+			(at 106.68 419.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +3384,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_0603_2A"
-			(at 141.478 102.362 0)
+			(at 94.488 423.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +3393,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:R_0603"
-			(at 171.958 88.138 0)
+			(at 124.968 409.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900229559300096"
-			(at 153.67 102.87 0)
+			(at 106.68 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +3411,7 @@
 			)
 		)
 		(property "Description" "120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads"
-			(at 170.18 77.724 0)
+			(at 123.19 399.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +3420,7 @@
 			)
 		)
 		(property "Specifications" "120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads"
-			(at 165.354 104.14 0)
+			(at 118.364 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +3430,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 166.878 104.14 0)
+			(at 119.888 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +3440,7 @@
 			)
 		)
 		(property "Part Number" "BLM18PG121SN1D"
-			(at 168.402 104.14 0)
+			(at 121.412 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +3450,7 @@
 			)
 		)
 		(property "Display" "Ferrite Bead"
-			(at 153.67 100.33 90)
+			(at 106.68 421.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2713,7 +3458,7 @@
 			)
 		)
 		(property "LCSC" "C14709"
-			(at 173.736 100.33 0)
+			(at 126.746 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,87 +3474,20 @@
 		)
 		(instances
 			(project ""
-				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
+				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "L2")
 					(unit 1)
 				)
 			)
-			(project "lichen-crustose"
-				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.72 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8355e15-0abe-4d85-aca0-8d78496c531a")
-		(property "Reference" "#FLG01"
-			(at 174.625 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 176.53 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d893137-4d6a-401d-8d60-ff99d5aa711d")
-		)
-		(instances
 			(project ""
 				(path "/bee7e378-5971-4ef4-8c50-ca312a04ab0f"
-					(reference "#FLG01")
+					(reference "L2")
 					(unit 1)
 				)
 			)
 			(project "lichen-crustose"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/43d8a65d-fe38-4c19-bd1b-c04314b2d689"
-					(reference "#FLG01")
+					(reference "L2")
 					(unit 1)
 				)
 			)
