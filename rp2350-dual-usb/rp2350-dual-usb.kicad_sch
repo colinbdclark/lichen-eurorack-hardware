@@ -560,13 +560,12 @@
 					)
 				)
 			)
-			(property "Value" "1k_0402"
-				(at -2.54 0 90)
+			(property "Value" "1k"
+				(at -5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Lichen:R_0402_1005Metric"
@@ -623,6 +622,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "LCSC" "C11702"
@@ -2208,7 +2208,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_0805_JLC_Basic_Green"
+			(property "Value" "Green"
 				(at -1.5875 3.81 0)
 				(effects
 					(font
@@ -2216,7 +2216,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2225,7 +2225,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579709195039801344"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2234,7 +2234,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.8V~2.4V 120° 175mcd 40mW 584nm~594nm 596nm Water Clear Yellow 0805"
+			(property "Description" "100mW 120° 2.6V~3.1V 430mcd 513nm~528nm 525nm 5mA Emerald Green Water Clear 0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2261,7 +2261,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "KT-0805"
+			(property "Part Number" "KT-0805G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2270,7 +2270,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2296"
+			(property "LCSC" "C2297"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2418,7 +2418,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_0805_JLC_Basic_Yellow"
+			(property "Value" "Yellow"
 				(at -1.5875 3.81 0)
 				(effects
 					(font
@@ -2426,7 +2426,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2471,7 +2471,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "KT-0805"
+			(property "Part Number" "KT-0805Y"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4119,7 +4119,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:Raspberry_Pi_Pico_Debug_Header_JST"
+		(symbol "Lichen:Raspberry_Pi_Pico_Debug_Header_JST_Horizontal"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -4136,7 +4136,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x03_MountingPin"
+			(property "Value" "JST SH 01x03 Pins"
 				(at 2.54 -1.6255 0)
 				(effects
 					(font
@@ -4218,7 +4218,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Raspberry_Pi_Pico_Debug_Header_JST_1_1"
+			(symbol "Raspberry_Pi_Pico_Debug_Header_JST_Horizontal_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -7168,7 +7168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:Raspberry_Pi_Pico_Debug_Header_JST")
+		(lib_id "Lichen:Raspberry_Pi_Pico_Debug_Header_JST_Horizontal")
 		(at 101.6 128.27 0)
 		(mirror y)
 		(unit 1)
@@ -7263,7 +7263,7 @@
 			(uuid "60f149c8-4205-48d5-8370-4bc39ecc4628")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "J1")
 					(unit 1)
@@ -7829,7 +7829,7 @@
 			(uuid "162f0b0c-025c-497b-98f7-e8cd4c5bbea2")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "R3")
 					(unit 1)
@@ -7938,7 +7938,7 @@
 			(uuid "ed907ed8-1755-4346-8c0c-643706cf53ef")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "C11")
 					(unit 1)
@@ -7972,7 +7972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -7981,7 +7981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579709195039801344"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736"
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -7990,7 +7990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.8V~2.4V 120° 175mcd 40mW 584nm~594nm 596nm Water Clear Yellow 0805"
+		(property "Description" "100mW 120° 2.6V~3.1V 430mcd 513nm~528nm 525nm 5mA Emerald Green Water Clear 0805"
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -8017,7 +8017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "KT-0805"
+		(property "Part Number" "KT-0805G"
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -8026,7 +8026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2296"
+		(property "LCSC" "C2297"
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -8173,7 +8173,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "H1")
 					(unit 1)
@@ -8556,7 +8556,7 @@
 			(uuid "bbd6b871-f4c3-49b8-9aad-36d99b73e9f4")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "U2")
 					(unit 1)
@@ -9010,7 +9010,7 @@
 			(uuid "5937a202-1b4b-4619-8767-95512a607f61")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "Y1")
 					(unit 1)
@@ -9186,7 +9186,7 @@
 			(uuid "abfe0da9-94d1-48da-8a44-9ead56752023")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "#PWR013")
 					(unit 1)
@@ -9291,7 +9291,7 @@
 			(uuid "4fe6eeb9-bb4a-4d39-8cd7-11bde8d019da")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "L1")
 					(unit 1)
@@ -10475,7 +10475,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "H2")
 					(unit 1)
@@ -10691,7 +10691,7 @@
 			(uuid "3fdd8aef-ce83-4dc2-9a4b-38fd259ec26b")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "C5")
 					(unit 1)
@@ -10774,7 +10774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "1K"
+		(property "Display" "1k"
 			(at 74.93 105.41 90)
 			(effects
 				(font
@@ -10798,7 +10798,7 @@
 			(uuid "eab2c5f2-a354-4772-ba06-2b3a41defdda")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "R16")
 					(unit 1)
@@ -10904,7 +10904,7 @@
 			(uuid "5be59d2a-8440-4c7c-9152-30cdd72ab2c1")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "R6")
 					(unit 1)
@@ -11114,7 +11114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 184.15 156.21 0)
 			(effects
 				(font
@@ -11159,7 +11159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "KT-0805"
+		(property "Part Number" "KT-0805Y"
 			(at 184.15 156.21 0)
 			(effects
 				(font
@@ -11184,7 +11184,7 @@
 			(uuid "6a2402bd-4d8c-4699-959c-c1fe48110073")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "D1")
 					(unit 1)
@@ -11291,7 +11291,7 @@
 			(uuid "bedf1e07-4d4f-42ef-9285-ce2fdec8791f")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "R2")
 					(unit 1)
@@ -11533,7 +11533,7 @@
 				)
 			)
 		)
-		(property "Value" "Button_Switch_SMD_Push_1P1T_Wurth"
+		(property "Value" "1P1T Switch"
 			(at 95.25 109.22 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 			(uuid "341d3754-1609-49cc-8d70-9d3b500f378a")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "SW1")
 					(unit 1)
@@ -11871,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Value" "33R_0402"
+		(property "Value" "33R"
 			(at 87.63 44.45 90)
 			(effects
 				(font
@@ -11952,7 +11952,7 @@
 			(uuid "4013e7ad-994b-4ad5-830b-bd76838f6064")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "R1")
 					(unit 1)
@@ -12194,7 +12194,7 @@
 			(uuid "8a483298-3ce9-41ac-a3d1-2b93e417689b")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "C9")
 					(unit 1)
@@ -12394,7 +12394,7 @@
 			(uuid "50e108ac-a5d2-4d1e-8f1c-184ffd7580c5")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "#PWR010")
 					(unit 1)
@@ -12461,7 +12461,7 @@
 			(uuid "acf293a3-df5e-4907-90a0-1262ce495062")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "#FLG01")
 					(unit 1)
@@ -12527,7 +12527,7 @@
 			(uuid "e5cc7ae4-463a-454a-9a18-32217e6afb09")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271"
 					(reference "#PWR011")
 					(unit 1)

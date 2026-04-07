@@ -5,7 +5,853 @@
 	(uuid "0971a859-cbd5-4047-be13-94a9cd563327")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL074"
+		(symbol "Lichen:100k_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R8"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100K"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Lichen:R_0603"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
+				(at 2.286 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+				(at 2.032 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603WAF1003T5E"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "100k"
+				(at 3.81 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25803"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100k_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100k_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100k_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:33pF_C0G_0603_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C3"
+				(at 6.35 -0.0063 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "33pF_C0G_0603_50V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Lichen:C_0603"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707052086001664"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "33pF 50V C0G ±5% 0603 MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "CL10C330JB8NNNC"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "33pF C0G"
+				(at 3.81 -0.0063 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1663"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100pF_0603_50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "33pF_C0G_0603_50V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "33pF_C0G_0603_50V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:R_Potentiometer_Dual"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -6.604 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.858 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
+				(at 6.858 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
+				(at 6.604 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual potentiometer"
+				(at -0.254 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Alpha"
+				(at 0 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RD90F-40"
+				(at 0 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Dual_0_1"
+				(rectangle
+					(start -8.89 -1.524)
+					(end -3.81 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -5.842 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 0.508) (xy -5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 0.508) (xy -4.064 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 0.508) (xy -3.048 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.508) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy -1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.508) (xy 3.048 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0.508) (xy 4.064 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.524)
+					(end 8.89 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.508) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 0.508) (xy 6.096 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Dual_1_1"
+				(text "CCW"
+					(at -8.128 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CW"
+					(at -4.318 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CCW"
+					(at 4.572 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CW"
+					(at 8.382 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 0)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:TL074"
 			(pin_names
 				(offset 0.127)
 			)
@@ -30,7 +876,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at -1.27 2.54 0)
 				(effects
 					(font
@@ -48,7 +894,34 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TL074IDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6964"
 				(at 0 0 0)
 				(effects
 					(font
@@ -385,822 +1258,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:100k_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R8"
-				(at 6.35 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100k_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Lichen:R_0603"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-				(at 2.286 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100K, 1%, 1/10W, 0603"
-				(at 2.032 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "0603WAF1003T5E"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "100k"
-				(at 3.81 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "LCSC" "C25803"
-				(at 1.27 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100k_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "100k_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100k_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:10K_Potentiometer_Dual_Gang_Alpha_RD902F"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV8"
-				(at -1.27 -7.112 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "B10k_Dual"
-				(at 1.27 -7.112 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Alpha"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RD90F-40"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "10K_Potentiometer_Dual_Gang_Alpha_RD902F_0_1"
-				(rectangle
-					(start -8.89 -1.524)
-					(end -3.81 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -5.842 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 0.508) (xy -5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 0.508) (xy -4.064 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 0.508) (xy -3.048 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy -1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.508) (xy 3.048 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 0.508) (xy 4.064 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -1.524)
-					(end 8.89 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.508) (xy 5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 0.508) (xy 6.096 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "10K_Potentiometer_Dual_Gang_Alpha_RD902F_1_1"
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 2.54 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 0)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 1.27)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:33pF_C0G_0603_50V"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C3"
-				(at 6.35 -0.0063 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33pF_C0G_0603_50V"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Lichen:C_0603"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "33pF 50V C0G ±5% 0603 MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "CL10C330JB8NNNC"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "33pF C0G"
-				(at 3.81 -0.0063 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C1663"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100pF_0603_50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "33pF_C0G_0603_50V_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "33pF_C0G_0603_50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2409,7 +2466,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 77.47 44.45 90)
 			(effects
 				(font
@@ -2428,7 +2485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 97.79 49.276 0)
 			(effects
 				(font
@@ -2437,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 95.25 49.022 0)
 			(effects
 				(font
@@ -2490,7 +2547,7 @@
 			(uuid "58b9e6f1-cdba-4566-b30a-9415148f76af")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R23")
 					(unit 1)
@@ -2557,7 +2614,7 @@
 			(uuid "bd4a67b1-6988-40bb-b4ab-dc1ad695ef4f")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "#PWR038")
 					(unit 1)
@@ -2583,7 +2640,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 62.23 57.15 90)
 			(effects
 				(font
@@ -2602,7 +2659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 82.55 61.976 0)
 			(effects
 				(font
@@ -2611,7 +2668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 80.01 61.722 0)
 			(effects
 				(font
@@ -2664,7 +2721,7 @@
 			(uuid "3723e48e-961d-4f1a-afcd-9a5773b12bd7")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R17")
 					(unit 1)
@@ -2690,7 +2747,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 77.47 144.78 90)
 			(effects
 				(font
@@ -2709,7 +2766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 97.79 149.606 0)
 			(effects
 				(font
@@ -2718,7 +2775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 95.25 149.352 0)
 			(effects
 				(font
@@ -2771,7 +2828,7 @@
 			(uuid "66ca5960-21ec-4ba6-a35b-970495838991")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R24")
 					(unit 1)
@@ -2837,7 +2894,7 @@
 			(uuid "f7ca87d4-99d0-4452-bf61-0e648f995235")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "#PWR039")
 					(unit 1)
@@ -2904,7 +2961,7 @@
 			(uuid "a18bfd52-c34f-4272-a913-9be767705310")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "#PWR037")
 					(unit 1)
@@ -2929,7 +2986,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 62.23 167.64 90)
 			(effects
 				(font
@@ -2948,7 +3005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 82.55 162.814 0)
 			(effects
 				(font
@@ -2957,7 +3014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 80.01 163.068 0)
 			(effects
 				(font
@@ -3010,7 +3067,7 @@
 			(uuid "68af68d3-424c-4cb0-9fb5-aa073d0bbb17")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R20")
 					(unit 1)
@@ -3036,7 +3093,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF_C0G_0603_50V"
+		(property "Value" "33pF C0G"
 			(at 142.24 113.03 0)
 			(effects
 				(font
@@ -3055,7 +3112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707052086001664"
 			(at 146.05 113.03 0)
 			(effects
 				(font
@@ -3070,16 +3127,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
-			(at 153.924 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3127,7 +3174,7 @@
 			(uuid "e435066d-07c5-4a1a-ad07-cdb26618d0f1")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "C6")
 					(unit 1)
@@ -3193,7 +3240,7 @@
 			(uuid "0b318805-dee4-4472-afed-46e1e365347b")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "#PWR035")
 					(unit 1)
@@ -3202,7 +3249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 78.74 162.56 0)
 		(mirror x)
 		(unit 3)
@@ -3212,7 +3259,7 @@
 		(dnp no)
 		(uuid "3a67aa0b-acda-457e-8bad-fe050bf48919")
 		(property "Reference" "OP3"
-			(at 78.74 172.72 0)
+			(at 78.74 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3267,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 78.74 170.18 0)
+			(at 78.74 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3292,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 78.74 162.56 0)
 			(effects
 				(font
@@ -3297,7 +3371,7 @@
 			(uuid "94a0b849-62d5-4cba-8052-35fd2759616f")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "OP3")
 					(unit 3)
@@ -3363,7 +3437,7 @@
 			(uuid "082ba2b2-7d4e-4e38-953b-76aa118ffdf6")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "#PWR036")
 					(unit 1)
@@ -3389,7 +3463,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF_C0G_0603_50V"
+		(property "Value" "33pF C0G"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -3408,7 +3482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707052086001664"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -3423,16 +3497,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
-			(at 153.924 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3480,7 +3544,7 @@
 			(uuid "b6391351-7a3f-4aee-9dd9-1b5fb0bf5762")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "C5")
 					(unit 1)
@@ -3489,7 +3553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 147.32 139.7 0)
 		(mirror x)
 		(unit 4)
@@ -3532,7 +3596,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 147.32 139.7 0)
 			(effects
 				(font
@@ -3584,7 +3675,7 @@
 			(uuid "94a0b849-62d5-4cba-8052-35fd27596170")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "OP3")
 					(unit 4)
@@ -3610,7 +3701,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 146.05 121.92 90)
 			(effects
 				(font
@@ -3629,7 +3720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 166.37 126.746 0)
 			(effects
 				(font
@@ -3638,7 +3729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 163.83 126.492 0)
 			(effects
 				(font
@@ -3691,7 +3782,7 @@
 			(uuid "6ce99a08-4117-4331-9e9d-e82debd3cd65")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R30")
 					(unit 1)
@@ -3717,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 62.23 157.48 90)
 			(effects
 				(font
@@ -3736,7 +3827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 82.55 162.306 0)
 			(effects
 				(font
@@ -3745,7 +3836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 80.01 162.052 0)
 			(effects
 				(font
@@ -3798,7 +3889,7 @@
 			(uuid "5db951fa-b19d-444b-bc3f-93cd23e05630")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R19")
 					(unit 1)
@@ -3824,7 +3915,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 146.05 68.58 90)
 			(effects
 				(font
@@ -3843,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 166.37 73.406 0)
 			(effects
 				(font
@@ -3852,7 +3943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 163.83 73.152 0)
 			(effects
 				(font
@@ -3905,7 +3996,7 @@
 			(uuid "bdf11077-dca2-484d-b5ee-50fdae222dfb")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R29")
 					(unit 1)
@@ -3930,7 +4021,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 62.23 67.31 90)
 			(effects
 				(font
@@ -3949,7 +4040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 82.55 62.484 0)
 			(effects
 				(font
@@ -3958,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 80.01 62.738 0)
 			(effects
 				(font
@@ -4011,7 +4102,7 @@
 			(uuid "3b5c5aa8-78fe-418f-b1fb-74276f6a329d")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R18")
 					(unit 1)
@@ -4036,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 71.12 72.39 90)
 			(effects
 				(font
@@ -4055,7 +4146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 66.294 52.07 0)
 			(effects
 				(font
@@ -4064,7 +4155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 66.548 54.61 0)
 			(effects
 				(font
@@ -4117,7 +4208,7 @@
 			(uuid "56aafe4a-2b9a-4443-bffa-3ecf9face755")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R21")
 					(unit 1)
@@ -4126,7 +4217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 78.74 62.23 0)
 		(mirror x)
 		(unit 1)
@@ -4169,7 +4260,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 78.74 62.23 0)
 			(effects
 				(font
@@ -4221,7 +4339,7 @@
 			(uuid "94a0b849-62d5-4cba-8052-35fd27596171")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "OP3")
 					(unit 1)
@@ -4247,7 +4365,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF_C0G_0603_50V"
+		(property "Value" "33pF C0G"
 			(at 73.66 135.89 0)
 			(effects
 				(font
@@ -4266,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707052086001664"
 			(at 77.47 135.89 0)
 			(effects
 				(font
@@ -4281,16 +4399,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
-			(at 85.344 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4338,7 +4446,7 @@
 			(uuid "94824503-2f80-483e-973b-447aa98dc24e")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "C4")
 					(unit 1)
@@ -4347,7 +4455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 147.32 86.36 0)
 		(mirror x)
 		(unit 2)
@@ -4390,7 +4498,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -4442,7 +4577,7 @@
 			(uuid "94a0b849-62d5-4cba-8052-35fd27596172")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "OP3")
 					(unit 2)
@@ -4467,7 +4602,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 71.12 172.72 90)
 			(effects
 				(font
@@ -4486,7 +4621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 66.294 152.4 0)
 			(effects
 				(font
@@ -4495,7 +4630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 66.548 154.94 0)
 			(effects
 				(font
@@ -4548,7 +4683,7 @@
 			(uuid "ff8f3336-ae80-42af-aa30-a1a056328a07")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R22")
 					(unit 1)
@@ -4574,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 127 72.39 90)
 			(effects
 				(font
@@ -4593,7 +4728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 147.32 77.216 0)
 			(effects
 				(font
@@ -4602,7 +4737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 144.78 76.962 0)
 			(effects
 				(font
@@ -4655,7 +4790,7 @@
 			(uuid "9bf60507-4e4c-40dc-98d7-eb5c4306d0fd")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R25")
 					(unit 1)
@@ -4681,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 127 90.17 90)
 			(effects
 				(font
@@ -4700,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 147.32 94.996 0)
 			(effects
 				(font
@@ -4709,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 144.78 94.742 0)
 			(effects
 				(font
@@ -4762,7 +4897,7 @@
 			(uuid "8e42b71d-6f8d-43e4-af50-9cee81108a4e")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R26")
 					(unit 1)
@@ -4828,7 +4963,7 @@
 			(uuid "dd0fa984-5698-4324-922d-f9c12418c716")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "#PWR040")
 					(unit 1)
@@ -4854,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 128.27 143.51 90)
 			(effects
 				(font
@@ -4873,7 +5008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 148.59 148.336 0)
 			(effects
 				(font
@@ -4882,7 +5017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 146.05 148.082 0)
 			(effects
 				(font
@@ -4935,7 +5070,7 @@
 			(uuid "a4857d98-c405-4281-9341-96a53721b4e3")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R28")
 					(unit 1)
@@ -4961,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF_C0G_0603_50V"
+		(property "Value" "33pF C0G"
 			(at 73.66 35.56 0)
 			(effects
 				(font
@@ -4980,7 +5115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707052086001664"
 			(at 77.47 35.56 0)
 			(effects
 				(font
@@ -4995,16 +5130,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "33pF 50V C0G ±5% 0603 MLCC"
-			(at 85.344 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5052,7 +5177,7 @@
 			(uuid "1927b785-dc53-4ca3-bf0c-50b2522a62cc")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "C3")
 					(unit 1)
@@ -5061,7 +5186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:10K_Potentiometer_Dual_Gang_Alpha_RD902F")
+		(lib_id "Lichen:R_Potentiometer_Dual")
 		(at 101.6 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5078,7 +5203,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B10k_Dual"
+		(property "Value" "B10K"
 			(at 94.488 104.14 90)
 			(effects
 				(font
@@ -5088,7 +5213,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-			(at 99.695 109.22 0)
+			(at 89.662 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5222,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-			(at 99.695 109.22 0)
+			(at 92.456 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5231,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at 101.6 102.87 0)
+			(at 86.868 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5240,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
-			(at 101.6 102.87 90)
+			(at 84.328 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5249,7 @@
 			)
 		)
 		(property "Part Number" "RD90F-40"
-			(at 101.6 102.87 90)
+			(at 82.042 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5276,7 @@
 			(uuid "baac7ebe-ac0a-4510-8885-3648514bf9a0")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "RV8")
 					(unit 1)
@@ -5177,7 +5302,7 @@
 				)
 			)
 		)
-		(property "Value" "100k_0603"
+		(property "Value" "100K"
 			(at 128.27 125.73 90)
 			(effects
 				(font
@@ -5196,7 +5321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
 			(at 148.59 130.556 0)
 			(effects
 				(font
@@ -5205,7 +5330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100K, 1%, 1/10W, 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 146.05 130.302 0)
 			(effects
 				(font
@@ -5258,7 +5383,7 @@
 			(uuid "ed241c50-b52c-4912-9a87-c87752cc59a2")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-control-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/559c5f12-4bb2-42fb-bde9-84476c915e4e"
 					(reference "R27")
 					(unit 1)

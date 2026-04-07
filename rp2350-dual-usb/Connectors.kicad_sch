@@ -253,12 +253,11 @@
 				)
 			)
 			(property "Value" "100K"
-				(at -2.54 0 90)
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Lichen:R_0402_1005Metric"
@@ -316,6 +315,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "LCSC" "C25741"
@@ -7203,7 +7203,7 @@
 			(uuid "386f8f39-1523-4246-ab6c-0c48c2f71e61")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "J5")
 					(unit 1)
@@ -7485,7 +7485,7 @@
 			(uuid "c4fea0f2-c7c9-4969-ba57-42e79cb5ae21")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "C22")
 					(unit 1)
@@ -7770,7 +7770,7 @@
 			(uuid "34f6e97e-da99-43d1-a5bc-1ff7c96f7b80")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "R19")
 					(unit 1)
@@ -8346,7 +8346,7 @@
 			(uuid "acca0316-f639-4caa-aa4b-5492b009cad2")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "U6")
 					(unit 1)
@@ -8447,7 +8447,7 @@
 			(uuid "386f8f39-1523-4246-ab6c-0c48c2f71e62")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "J4")
 					(unit 1)
@@ -9152,7 +9152,7 @@
 			(uuid "be6bdaa5-34e8-4e78-ae3a-56664889408a")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "C21")
 					(unit 1)
@@ -9983,7 +9983,7 @@
 			(uuid "d107b964-101c-4c9e-bf8f-acb39bccd6da")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "C23")
 					(unit 1)
@@ -10010,7 +10010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF_0402_16V"
+		(property "Value" "100nF"
 			(at 208.28 105.41 0)
 			(effects
 				(font
@@ -10102,7 +10102,7 @@
 			(uuid "df21a0db-8246-4e61-8747-e804630dba52")
 		)
 		(instances
-			(project ""
+			(project "rp2350-dual-usb"
 				(path "/16ef7e10-64b2-4124-9408-fecb81ad1271/94926592-8b77-4efd-88ab-683ab0d2d180"
 					(reference "C20")
 					(unit 1)

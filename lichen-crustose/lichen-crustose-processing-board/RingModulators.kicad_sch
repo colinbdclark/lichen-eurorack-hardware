@@ -1314,7 +1314,7 @@
 			(uuid "8c31b4c1-d3d9-481d-8494-ffc3bf48fb6e")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED4")
 					(unit 1)
@@ -1392,7 +1392,7 @@
 			(uuid "8c31b4c1-d3d9-481d-8494-ffc3bf48fb6f")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED1")
 					(unit 1)
@@ -1469,7 +1469,7 @@
 			(uuid "8c31b4c1-d3d9-481d-8494-ffc3bf48fb70")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED3")
 					(unit 1)
@@ -1546,7 +1546,7 @@
 			(uuid "8c31b4c1-d3d9-481d-8494-ffc3bf48fb71")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED7")
 					(unit 1)
@@ -1613,7 +1613,7 @@
 			(uuid "8f5cbd30-099c-4efc-8699-37bd86550d8e")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "#PWR012")
 					(unit 1)
@@ -1680,7 +1680,7 @@
 			(uuid "a633ee05-1ab7-4df2-a0c8-fd9c7e295b57")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "#PWR011")
 					(unit 1)
@@ -1760,7 +1760,7 @@
 			(uuid "cfebc612-a989-4798-9c80-98b44bc6083e")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "TR4")
 					(unit 1)
@@ -1827,7 +1827,7 @@
 			(uuid "5289a5f6-843d-4794-9f37-8e7d60f53162")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "#PWR09")
 					(unit 1)
@@ -1905,7 +1905,7 @@
 			(uuid "b44ab394-7e70-4c76-931b-8b27582be641")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED2")
 					(unit 1)
@@ -1985,7 +1985,7 @@
 			(uuid "ed674b2d-54a4-489b-b6c0-78bb775ed74d")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "TR3")
 					(unit 1)
@@ -2061,7 +2061,7 @@
 			(uuid "a6447e6d-06cb-4634-b192-361236a91e16")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED6")
 					(unit 1)
@@ -2138,7 +2138,7 @@
 			(uuid "6bf10503-ca62-41b8-9b06-15c92e79338e")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED8")
 					(unit 1)
@@ -2217,7 +2217,7 @@
 			(uuid "eab23b5e-efaf-401e-ac3a-437fa980acc1")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "TR2")
 					(unit 1)
@@ -2284,7 +2284,7 @@
 			(uuid "606eda71-91fd-45a5-a7f0-cd44c2d6a15a")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "#PWR010")
 					(unit 1)
@@ -2351,7 +2351,7 @@
 			(uuid "cb6b1be6-a1ce-465e-b9ce-16753bcbb2e2")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "#PWR07")
 					(unit 1)
@@ -2428,7 +2428,7 @@
 			(uuid "d8474803-9056-43e7-bf89-f311817490e9")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "LED5")
 					(unit 1)
@@ -2495,7 +2495,7 @@
 			(uuid "95a6d781-ca04-4c9e-9d3e-2ff68d39068a")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "#PWR08")
 					(unit 1)
@@ -2574,7 +2574,7 @@
 			(uuid "ed674b2d-54a4-489b-b6c0-78bb775ed74e")
 		)
 		(instances
-			(project "lichen-crustose"
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821/fdfc379c-2f94-4a53-bb12-6742b3217bb2"
 					(reference "TR1")
 					(unit 1)

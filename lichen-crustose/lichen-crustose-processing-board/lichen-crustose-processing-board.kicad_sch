@@ -2049,7 +2049,7 @@
 			(uuid "dfe69dbe-c992-472a-b1d2-57a618db7fd9")
 		)
 		(instances
-			(project ""
+			(project "lichen-crustose-processing-board"
 				(path "/c32352bf-fefd-4f63-8ef8-68bcf6fd3821"
 					(reference "CONN1")
 					(unit 1)

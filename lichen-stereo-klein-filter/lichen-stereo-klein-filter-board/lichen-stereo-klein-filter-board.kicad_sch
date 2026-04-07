@@ -5,15 +5,18 @@
 	(uuid "33730a50-d570-4e81-8d4c-8c7281bac9f5")
 	(paper "A1")
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL074"
+		(symbol "10k_0603_1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.127)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "R"
+				(at 2.54 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,34 +24,25 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL074"
-				(at 0 -5.08 0)
+			(property "Value" "10K"
+				(at 4.318 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Lichen:R_0603"
+				(at -2.54 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,15 +51,55 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+				(at 0.762 -17.526 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "ki_keywords" "quad opamp"
+			(property "Manufacturer" "UNI-ROYAL"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603WAF1002T5E"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "10K"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25804"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100k_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +108,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+			(property "ki_fp_filters" "R_* R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,58 +117,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL074_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
+			(symbol "10k_0603_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
+			)
+			(symbol "10k_0603_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -150,59 +149,9 @@
 						)
 					)
 				)
-			)
-			(symbol "TL074_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -210,181 +159,7 @@
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL074_5_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1265,7 +1040,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1313,7 +1088,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB ID" "C25804"
+			(property "LCSC" "C25804"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -1572,7 +1347,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:13K_0603"
+		(symbol "Lichen:15K_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1591,7 +1366,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "13K"
+			(property "Value" "15K"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -1619,7 +1394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mW 13kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(property "Description" "100mW 15kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 				(at 0.762 -17.526 0)
 				(effects
 					(font
@@ -1638,7 +1413,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "0603WAF1302T5E"
+			(property "Part Number" "0603WAF1502T5E"
 				(at -2.54 -10.922 0)
 				(effects
 					(font
@@ -1648,7 +1423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Display" "13K"
+			(property "Display" "15K"
 				(at 2.54 -1.2699 0)
 				(effects
 					(font
@@ -1658,7 +1433,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB ID" "C22797"
+			(property "LCSC" "C22809"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -1685,7 +1460,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "13K_0603_0_1"
+			(symbol "15K_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1698,7 +1473,7 @@
 					)
 				)
 			)
-			(symbol "13K_0603_1_1"
+			(symbol "15K_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4252,6 +4027,423 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Lichen:TL074"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL074"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TL074IDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6964"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL074_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -4885,7 +5077,7 @@
 	)
 	(text "-2.68V to +3.46V"
 		(exclude_from_sim no)
-		(at 330.454 393.954 0)
+		(at 330.454 394.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4959,6 +5151,16 @@
 			)
 		)
 		(uuid "e5fa31b8-e12c-4101-8bbd-c195b1f6d854")
+	)
+	(text "Just using up a couple of spare TL074 units?"
+		(exclude_from_sim no)
+		(at 392.684 241.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9706734-c9f3-4efd-9fbd-bc2917798ded")
 	)
 	(text "Note, in paults' schematic,\nthe ferrite bead he uses is a Murata BLM21PG221SN1D\nwhich is 220R@100MHz.\nThis part (120R@100MHz) is substituted because it's JLC Basic,\nbut may not be as suitable a part."
 		(exclude_from_sim no)
@@ -6637,16 +6839,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 210.82) (xy 289.56 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40bbc0b0-42ec-44de-b966-823a920839e7")
-	)
-	(wire
-		(pts
 			(xy 288.29 370.84) (xy 289.56 370.84)
 		)
 		(stroke
@@ -6967,6 +7159,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 210.82) (xy 288.29 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c64e30-de80-48e6-93e1-baeabee4df61")
+	)
+	(wire
+		(pts
 			(xy 351.79 406.4) (xy 351.79 391.16)
 		)
 		(stroke
@@ -7247,7 +7449,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 406.4) (xy 359.41 406.4)
+			(xy 364.49 406.4) (xy 361.95 406.4)
 		)
 		(stroke
 			(width 0)
@@ -8647,7 +8849,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 210.82) (xy 300.99 210.82)
+			(xy 295.91 210.82) (xy 300.99 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8724,6 +8926,16 @@
 			(type default)
 		)
 		(uuid "d66b97ab-121a-458c-b254-a65cebf18756")
+	)
+	(wire
+		(pts
+			(xy 354.33 406.4) (xy 351.79 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bb2bbd-8d2f-49a9-8c5d-336784596c74")
 	)
 	(wire
 		(pts
@@ -9547,7 +9759,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_UNFILTERED_L"
+	(global_label "AUDIO_OUT_DC_COUPLED_L"
 		(shape input)
 		(at 186.69 304.8 180)
 		(fields_autoplaced yes)
@@ -9559,7 +9771,7 @@
 		)
 		(uuid "89754e4c-214b-440c-8ed5-9f9fdc675a71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.3328 304.8 0)
+			(at 158.3652 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9803,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_UNFILTERED_R"
+	(global_label "AUDIO_OUT_DC_COUPLED_R"
 		(shape input)
 		(at 186.69 307.34 180)
 		(fields_autoplaced yes)
@@ -9603,7 +9815,7 @@
 		)
 		(uuid "97982155-74ec-42af-8689-bf0f2fa424d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.0909 307.34 0)
+			(at 158.1233 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,7 +9957,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_UNFILTERED_L"
+	(global_label "AUDIO_OUT_DC_COUPLED_L"
 		(shape output)
 		(at 610.87 193.04 0)
 		(fields_autoplaced yes)
@@ -9757,7 +9969,7 @@
 		)
 		(uuid "c6883058-b22b-462f-bf15-71aa1ce9812b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 638.2272 193.04 0)
+			(at 639.1948 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +10001,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_UNFILTERED_R"
+	(global_label "AUDIO_OUT_DC_COUPLED_R"
 		(shape output)
 		(at 613.41 353.06 0)
 		(fields_autoplaced yes)
@@ -9801,7 +10013,7 @@
 		)
 		(uuid "d093c142-90ff-4e0e-984f-db8fb69f0d29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 641.0091 353.06 0)
+			(at 641.9767 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +10113,7 @@
 	)
 	(global_label "CUTOFF_CV_OFFSET"
 		(shape input)
-		(at 288.29 210.82 180)
+		(at 287.02 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9911,7 +10123,7 @@
 		)
 		(uuid "f40c5bf1-494e-4659-a2b7-bbdaa7116981")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.1014 210.82 0)
+			(at 265.8314 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +10192,7 @@
 			(uuid "f62af187-1305-4dfd-8088-2a9d92cbf29a")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR044")
 					(unit 1)
@@ -10053,7 +10265,7 @@
 			(uuid "ac2afdf3-caf7-44a8-904e-c35a8116b628")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR042")
 					(unit 1)
@@ -10166,7 +10378,7 @@
 			(uuid "149f56d3-60ea-439a-8625-78ae1f2d924e")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R20")
 					(unit 1)
@@ -10181,6 +10393,7 @@
 		)
 	)
 	(symbol
+		(lib_name "10k_0603_1")
 		(lib_id "Lichen:10k_0603")
 		(at 243.84 403.86 90)
 		(unit 1)
@@ -10215,7 +10428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 243.84 403.86 0)
 			(effects
 				(font
@@ -10262,7 +10475,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C25804"
+		(property "LCSC" "C25804"
 			(at 259.08 402.59 0)
 			(effects
 				(font
@@ -10321,7 +10534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 257.81 396.24 0)
 			(effects
 				(font
@@ -10368,7 +10581,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C25804"
+		(property "LCSC" "C25804"
 			(at 273.05 394.97 0)
 			(effects
 				(font
@@ -10500,7 +10713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 388.62 388.62 0)
 		(mirror x)
 		(unit 4)
@@ -10543,7 +10756,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 388.62 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 388.62 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 388.62 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 388.62 388.62 0)
 			(effects
 				(font
@@ -10702,7 +10942,7 @@
 			(uuid "39a04d03-8ea6-47c6-a166-18869e8b5055")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R13")
 					(unit 1)
@@ -10815,7 +11055,7 @@
 			(uuid "bced149c-0488-40aa-828c-74fc2b88f819")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R47")
 					(unit 1)
@@ -10830,7 +11070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 626.11 449.58 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -10874,7 +11114,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 626.11 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 626.11 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 626.11 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 626.11 449.58 0)
 			(effects
 				(font
@@ -10926,7 +11193,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a1426")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U5")
 					(unit 5)
@@ -10999,7 +11266,7 @@
 			(uuid "922018ce-c404-4f9a-b839-ba369f0aaf72")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR041")
 					(unit 1)
@@ -11014,7 +11281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 527.05 350.52 0)
 		(mirror x)
 		(unit 2)
@@ -11057,7 +11324,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 527.05 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 527.05 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 527.05 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 527.05 350.52 0)
 			(effects
 				(font
@@ -11109,7 +11403,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a1422")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U5")
 					(unit 2)
@@ -11222,7 +11516,7 @@
 			(uuid "af165f9d-3e4e-4e46-a426-e3bce0044196")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R41")
 					(unit 1)
@@ -11337,7 +11631,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2ae5")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D2")
 					(unit 1)
@@ -11530,7 +11824,7 @@
 			(uuid "b7774d92-0c81-4651-b64e-28035d2bc901")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR026")
 					(unit 1)
@@ -11842,7 +12136,7 @@
 			(uuid "48925160-4f26-437e-89da-f113c312ae43")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C3")
 					(unit 1)
@@ -12126,7 +12420,7 @@
 			(uuid "8503d6a7-6844-4a94-b7cc-99fef64ba5ee")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R22")
 					(unit 1)
@@ -12199,7 +12493,7 @@
 			(uuid "b0151b4d-b2af-425b-9678-fdcbd81d1d85")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR032")
 					(unit 1)
@@ -12272,7 +12566,7 @@
 			(uuid "f045658c-4d93-4d9a-af5d-910410720072")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR018")
 					(unit 1)
@@ -12287,7 +12581,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 449.58 226.06 0)
 		(mirror x)
 		(unit 2)
@@ -12330,7 +12624,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 449.58 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 449.58 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 449.58 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 449.58 226.06 0)
 			(effects
 				(font
@@ -12391,7 +12712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 388.62 228.6 0)
 		(mirror x)
 		(unit 1)
@@ -12434,7 +12755,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 388.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 388.62 228.6 0)
 			(effects
 				(font
@@ -12595,7 +12943,7 @@
 			(uuid "8d5a473e-7371-48d8-b238-952b3603297a")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C23")
 					(unit 1)
@@ -12823,7 +13171,7 @@
 			(uuid "60b873c2-037a-475b-9440-040a7ff95181")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U6")
 					(unit 3)
@@ -12930,7 +13278,7 @@
 			(uuid "ad71b563-4f3e-44b3-b926-b1de9a8207ee")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R35")
 					(unit 1)
@@ -13042,7 +13390,7 @@
 			(uuid "b04fdedc-c733-4359-8f16-3e697a72aed4")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R32")
 					(unit 1)
@@ -13330,7 +13678,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2ae6")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D2")
 					(unit 3)
@@ -13442,7 +13790,7 @@
 			(uuid "51d7d183-4bd2-4c5d-a828-05d9896f1e40")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R48")
 					(unit 1)
@@ -13555,7 +13903,7 @@
 			(uuid "48925160-4f26-437e-89da-f113c312ae44")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C6")
 					(unit 1)
@@ -13661,7 +14009,7 @@
 			(uuid "86688ed7-7fa5-49d2-8c90-c5187df2f547")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "RV8")
 					(unit 1)
@@ -13774,7 +14122,7 @@
 			(uuid "f4dc6b51-f568-4a64-b447-24c508f9b270")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C13")
 					(unit 1)
@@ -13952,7 +14300,7 @@
 			(uuid "1595220e-3ad2-43ea-82ae-67c0a9b6397f")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R46")
 					(unit 1)
@@ -14067,7 +14415,7 @@
 			(uuid "a4ffa7d3-2cf3-4f1a-aac4-5e44ee9b2b0e")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D5")
 					(unit 2)
@@ -14180,7 +14528,7 @@
 			(uuid "6582c7a4-cc14-405e-843e-16d38b20f226")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C9")
 					(unit 1)
@@ -14301,7 +14649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 316.23 391.16 0)
 		(mirror x)
 		(unit 4)
@@ -14344,7 +14692,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 316.23 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 316.23 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 316.23 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 316.23 391.16 0)
 			(effects
 				(font
@@ -14505,7 +14880,7 @@
 			(uuid "f35af8ba-6521-4a79-824b-62a808fac86e")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C20")
 					(unit 1)
@@ -14617,7 +14992,7 @@
 			(uuid "39156369-c980-4ee2-894f-bcea16369266")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R42")
 					(unit 1)
@@ -14732,7 +15107,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2ae7")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D3")
 					(unit 1)
@@ -14845,7 +15220,7 @@
 			(uuid "b36db002-9e67-4525-9e20-24ccebe4a91c")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R18")
 					(unit 1)
@@ -14960,7 +15335,7 @@
 			(uuid "78aff06f-5034-4dce-a1a8-415e9d9ef1ef")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C24")
 					(unit 1)
@@ -14975,7 +15350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 530.86 312.42 180)
 		(unit 3)
 		(exclude_from_sim no)
@@ -15017,7 +15392,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 530.86 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 530.86 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 530.86 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 530.86 312.42 0)
 			(effects
 				(font
@@ -15078,7 +15480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 603.25 449.58 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -15122,7 +15524,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 603.25 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 603.25 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 603.25 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 603.25 449.58 0)
 			(effects
 				(font
@@ -15174,7 +15603,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a1424")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U3")
 					(unit 5)
@@ -15287,7 +15716,7 @@
 			(uuid "48925160-4f26-437e-89da-f113c312ae45")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C2")
 					(unit 1)
@@ -15303,7 +15732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 406.4 0)
+		(at 364.49 406.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15312,7 +15741,7 @@
 		(fields_autoplaced yes)
 		(uuid "66976cac-2970-4330-a060-4e0daef40f9c")
 		(property "Reference" "#PWR047"
-			(at 361.95 412.75 0)
+			(at 364.49 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +15750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 411.48 0)
+			(at 364.49 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15330,7 +15759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 406.4 0)
+			(at 364.49 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 406.4 0)
+			(at 364.49 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15348,7 +15777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 361.95 406.4 0)
+			(at 364.49 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15466,7 +15895,7 @@
 			(uuid "42366ac9-96d9-4149-9b3c-228402280389")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R26")
 					(unit 1)
@@ -15581,7 +16010,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2ae9")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D5")
 					(unit 3)
@@ -15654,7 +16083,7 @@
 			(uuid "4259c0da-ee16-41f1-b88e-cf6aa72ced6e")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR015")
 					(unit 1)
@@ -15769,7 +16198,7 @@
 			(uuid "8ac851f5-25f7-4023-babd-cfc61dd58229")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D6")
 					(unit 2)
@@ -15948,7 +16377,7 @@
 			(uuid "e2cf5398-2f5f-473a-b19c-3c5c97b6e29f")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R16")
 					(unit 1)
@@ -16063,7 +16492,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2ae8")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D6")
 					(unit 1)
@@ -16249,7 +16678,7 @@
 			(uuid "60b873c2-037a-475b-9440-040a7ff95182")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U6")
 					(unit 1)
@@ -16258,7 +16687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 444.5 160.02 0)
 		(mirror x)
 		(unit 3)
@@ -16301,7 +16730,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 444.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 444.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 444.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 444.5 160.02 0)
 			(effects
 				(font
@@ -16568,7 +17024,7 @@
 			(uuid "a82b18ba-4c15-4422-b43c-f2d82aaaa640")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R39")
 					(unit 1)
@@ -16683,7 +17139,7 @@
 			(uuid "64dc083e-256d-43b3-8c2d-36ee329524ce")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C19")
 					(unit 1)
@@ -16756,7 +17212,7 @@
 			(uuid "45691f7e-3d91-4ab7-a2b9-89a7c9fe0700")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR031")
 					(unit 1)
@@ -16868,7 +17324,7 @@
 			(uuid "b6a2e70b-a4dc-485e-8cdd-ebc87f2bd536")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R33")
 					(unit 1)
@@ -16883,7 +17339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 316.23 231.14 0)
 		(mirror x)
 		(unit 1)
@@ -16926,7 +17382,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 316.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 316.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 316.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 316.23 231.14 0)
 			(effects
 				(font
@@ -17087,7 +17570,7 @@
 			(uuid "d21cbf01-e3b5-45c0-b659-4dc18a0506d9")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C22")
 					(unit 1)
@@ -17102,7 +17585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 591.82 449.58 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -17147,7 +17630,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 591.82 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 591.82 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 591.82 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 591.82 449.58 0)
 			(effects
 				(font
@@ -17199,7 +17709,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a1427")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U2")
 					(unit 5)
@@ -17214,7 +17724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 441.96 320.04 0)
 		(mirror x)
 		(unit 2)
@@ -17257,7 +17767,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 441.96 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 441.96 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 441.96 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 441.96 320.04 0)
 			(effects
 				(font
@@ -17309,7 +17846,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a1428")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U4")
 					(unit 2)
@@ -17324,7 +17861,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:13K_0603")
+		(lib_id "Lichen:15K_0603")
 		(at 314.96 383.54 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17367,7 +17904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW 13kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+		(property "Description" "100mW 15kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 332.486 382.778 0)
 			(effects
 				(font
@@ -17386,7 +17923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0603WAF1302T5E"
+		(property "Part Number" "0603WAF1502T5E"
 			(at 325.882 386.08 0)
 			(effects
 				(font
@@ -17396,7 +17933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "13K"
+		(property "Display" "15K"
 			(at 316.2299 381 0)
 			(effects
 				(font
@@ -17406,7 +17943,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C22797"
+		(property "LCSC" "C22809"
 			(at 330.2 382.27 0)
 			(effects
 				(font
@@ -17431,7 +17968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 401.32 149.86 0)
 		(mirror x)
 		(unit 2)
@@ -17474,7 +18011,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 401.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 401.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 401.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 401.32 149.86 0)
 			(effects
 				(font
@@ -17535,7 +18099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 530.86 152.4 180)
 		(unit 4)
 		(exclude_from_sim no)
@@ -17577,7 +18141,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 530.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 530.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 530.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 530.86 152.4 0)
 			(effects
 				(font
@@ -17738,7 +18329,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2aea")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D2")
 					(unit 2)
@@ -17811,7 +18402,7 @@
 			(uuid "2434b969-f1f9-4f8b-8b26-f246c444fd0b")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR040")
 					(unit 1)
@@ -17923,7 +18514,7 @@
 			(uuid "ce2d7ec4-5268-4e08-935b-72f473f1315f")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R24")
 					(unit 1)
@@ -17938,7 +18529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 614.68 449.58 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -17982,7 +18573,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 614.68 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 614.68 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 614.68 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 614.68 449.58 0)
 			(effects
 				(font
@@ -18034,7 +18652,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a1429")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U4")
 					(unit 5)
@@ -18145,7 +18763,7 @@
 	)
 	(symbol
 		(lib_id "Lichen:27K_0603")
-		(at 355.6 406.4 90)
+		(at 358.14 406.4 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18154,7 +18772,7 @@
 		(dnp no)
 		(uuid "95bf0646-e744-48f0-9582-4b6e69f0aed2")
 		(property "Reference" "R54"
-			(at 355.6 410.21 90)
+			(at 358.14 410.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18162,7 +18780,7 @@
 			)
 		)
 		(property "Value" "27K"
-			(at 355.6 412.75 90)
+			(at 358.14 412.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18170,7 +18788,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:R_0603"
-			(at 368.3 403.86 0)
+			(at 370.84 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,7 +18798,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706186616672256"
-			(at 372.364 407.416 0)
+			(at 374.904 407.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +18807,7 @@
 			)
 		)
 		(property "Description" "100mW 27kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
-			(at 342.9 405.892 0)
+			(at 345.44 405.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,7 +18816,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 364.998 403.86 0)
+			(at 367.538 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18208,7 +18826,7 @@
 			)
 		)
 		(property "Part Number" "0603WAF2702T5E"
-			(at 366.522 403.86 0)
+			(at 369.062 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18218,7 +18836,7 @@
 			)
 		)
 		(property "Display" "27K"
-			(at 355.6 410.21 90)
+			(at 358.14 410.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18227,7 +18845,7 @@
 			)
 		)
 		(property "LCSC" "C22967"
-			(at 370.332 406.908 0)
+			(at 372.872 406.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18251,7 +18869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 600.71 353.06 0)
 		(mirror x)
 		(unit 3)
@@ -18294,7 +18912,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 600.71 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 600.71 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 600.71 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 600.71 353.06 0)
 			(effects
 				(font
@@ -18411,7 +19056,7 @@
 			(uuid "713984a2-bdf3-4f4c-9024-8a2de0016aee")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR010")
 					(unit 1)
@@ -18630,7 +19275,7 @@
 			(uuid "bbb595d1-4dfa-487c-a523-d5b0b9fdaee7")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R40")
 					(unit 1)
@@ -18743,7 +19388,7 @@
 			(uuid "df3a9375-b970-4f53-8078-c9183af7706c")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R45")
 					(unit 1)
@@ -18965,7 +19610,7 @@
 			(uuid "ba4bf25e-4d99-45cf-ae48-3c99a822714c")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C11")
 					(unit 1)
@@ -19186,7 +19831,7 @@
 			(uuid "cfcb243f-fd82-4f03-92ae-9622196d8cce")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R30")
 					(unit 1)
@@ -19308,7 +19953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 599.44 193.04 0)
 		(mirror x)
 		(unit 4)
@@ -19351,7 +19996,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 599.44 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 599.44 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 599.44 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 599.44 193.04 0)
 			(effects
 				(font
@@ -19510,7 +20182,7 @@
 			(uuid "29931c85-75bb-41ec-9300-38fec15664a1")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R29")
 					(unit 1)
@@ -19908,7 +20580,7 @@
 			(uuid "9dd4f501-fefc-404d-9549-72f530bc5bcf")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C18")
 					(unit 1)
@@ -20090,7 +20762,7 @@
 			(uuid "5b92628f-3d63-4f54-9c64-3bd8f9415fc5")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R17")
 					(unit 1)
@@ -20213,7 +20885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 447.04 386.08 0)
 		(mirror x)
 		(unit 1)
@@ -20256,7 +20928,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 447.04 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 447.04 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 447.04 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 447.04 386.08 0)
 			(effects
 				(font
@@ -20383,7 +21082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 527.05 190.5 0)
 		(mirror x)
 		(unit 3)
@@ -20426,7 +21125,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 527.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 527.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 527.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 527.05 190.5 0)
 			(effects
 				(font
@@ -20545,7 +21271,7 @@
 			(uuid "b9d1715b-6e33-46f4-9442-9b0d9e57a5ce")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR029")
 					(unit 1)
@@ -20720,7 +21446,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:13K_0603")
+		(lib_id "Lichen:15K_0603")
 		(at 314.96 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20763,7 +21489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW 13kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+		(property "Description" "100mW 15kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 332.486 222.758 0)
 			(effects
 				(font
@@ -20782,7 +21508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0603WAF1302T5E"
+		(property "Part Number" "0603WAF1502T5E"
 			(at 325.882 226.06 0)
 			(effects
 				(font
@@ -20792,7 +21518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "13K"
+		(property "Display" "15K"
 			(at 316.2299 220.98 0)
 			(effects
 				(font
@@ -20802,7 +21528,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C22797"
+		(property "LCSC" "C22809"
 			(at 330.2 222.25 0)
 			(effects
 				(font
@@ -20818,7 +21544,7 @@
 			(uuid "3315403a-f005-45aa-8c3c-e61af233caca")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R8")
 					(unit 1)
@@ -20834,7 +21560,7 @@
 	)
 	(symbol
 		(lib_id "Lichen:100k_0603")
-		(at 293.37 210.82 90)
+		(at 292.1 210.82 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20843,7 +21569,7 @@
 		(dnp no)
 		(uuid "c1c47086-313c-49ed-be6f-81bb46228ccd")
 		(property "Reference" "R1"
-			(at 293.37 217.17 90)
+			(at 292.1 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20851,7 +21577,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 293.37 214.63 90)
+			(at 292.1 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20859,7 +21585,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:R_0603"
-			(at 306.07 208.28 0)
+			(at 304.8 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20869,7 +21595,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706350726930432"
-			(at 313.69 213.106 0)
+			(at 312.42 213.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20878,7 +21604,7 @@
 			)
 		)
 		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
-			(at 311.15 212.852 0)
+			(at 309.88 212.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20887,7 +21613,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 302.768 208.28 0)
+			(at 301.498 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20897,7 +21623,7 @@
 			)
 		)
 		(property "Part Number" "0603WAF1003T5E"
-			(at 304.292 208.28 0)
+			(at 303.022 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20907,7 +21633,7 @@
 			)
 		)
 		(property "Display" "100k"
-			(at 290.83 214.63 90)
+			(at 289.56 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20917,7 +21643,7 @@
 			)
 		)
 		(property "LCSC" "C25803"
-			(at 308.61 212.09 0)
+			(at 307.34 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20932,7 +21658,7 @@
 			(uuid "60929caf-4a08-4314-bbc9-891d9d785c0a")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R1")
 					(unit 1)
@@ -21155,7 +21881,7 @@
 			(uuid "ec11f8f9-9888-4f82-a203-d9bed3e8add7")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C17")
 					(unit 1)
@@ -21268,7 +21994,7 @@
 			(uuid "4a3e7dac-7c53-4ea7-8ba5-351fb32722c2")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R19")
 					(unit 1)
@@ -21381,7 +22107,7 @@
 			(uuid "2aadd571-daad-4709-b0d6-e7b94cb77f65")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R25")
 					(unit 1)
@@ -21412,7 +22138,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x07_Top_Bottom"
+		(property "Value" "02x07 Pins"
 			(at 193.04 290.83 0)
 			(effects
 				(font
@@ -21430,7 +22156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402171721_BOOMELE-Boom-Precision-Elec-2-54-2-7P_C84004.pdf"
 			(at 191.77 302.26 0)
 			(effects
 				(font
@@ -21439,7 +22165,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "14P 2 2.54mm 2.54mm 2.5mm 3A 3mm 6mm Black Brass Gold Pin Header Surface Mount,Vertical SMD,P=2.54mm Pin Headers"
+			(at 191.77 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+			(at 191.77 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2.54-2*7P针立贴"
+			(at 191.77 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84004"
 			(at 191.77 302.26 0)
 			(effects
 				(font
@@ -21491,7 +22244,7 @@
 			(uuid "ab65b54e-9ed5-4f8d-8ea4-61b668f2d6a3")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "J8")
 					(unit 1)
@@ -21598,7 +22351,7 @@
 			(uuid "d4ace76b-b695-4aaf-832e-c250896f2d4b")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C14")
 					(unit 1)
@@ -21711,7 +22464,7 @@
 			(uuid "f946f3e2-c147-4c5a-8a31-92e66abccb0f")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C10")
 					(unit 1)
@@ -21784,7 +22537,7 @@
 			(uuid "dc7f96e4-8fd0-466b-bd02-6f23afbb098b")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR017")
 					(unit 1)
@@ -21899,7 +22652,7 @@
 			(uuid "13bfe42d-c9ed-4d22-a701-645d061e8252")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D3")
 					(unit 2)
@@ -22014,7 +22767,7 @@
 			(uuid "fe2a1b07-eadb-4fd7-9cce-559ef122a0c9")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C21")
 					(unit 1)
@@ -22029,7 +22782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
+		(lib_id "Lichen:TL074")
 		(at 401.32 309.88 0)
 		(mirror x)
 		(unit 1)
@@ -22072,7 +22825,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, SOIC-14"
+			(at 401.32 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 401.32 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074IDR"
+			(at 401.32 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6964"
 			(at 401.32 309.88 0)
 			(effects
 				(font
@@ -22124,7 +22904,7 @@
 			(uuid "8cc187df-1f70-4f64-b641-55b1975a142d")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U4")
 					(unit 1)
@@ -22237,7 +23017,7 @@
 			(uuid "2166cf29-3844-4bb6-86bf-0d1f24e35b10")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R34")
 					(unit 1)
@@ -22310,7 +23090,7 @@
 			(uuid "a20c5e5f-3100-4d31-b958-a5235865ca24")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR011")
 					(unit 1)
@@ -22425,7 +23205,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2aed")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D5")
 					(unit 1)
@@ -22539,7 +23319,7 @@
 			(uuid "48925160-4f26-437e-89da-f113c312ae46")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C4")
 					(unit 1)
@@ -22653,7 +23433,7 @@
 			(uuid "d31a0c7d-2938-42fd-b160-00e7620fa69c")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R12")
 					(unit 1)
@@ -22766,7 +23546,7 @@
 			(uuid "4ff7fac2-6c08-4538-ac18-8fa5e3fdcfac")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R36")
 					(unit 1)
@@ -22947,7 +23727,7 @@
 			(uuid "09172e7d-b551-4acf-9b02-a4f8364f2aee")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "D3")
 					(unit 3)
@@ -23066,7 +23846,7 @@
 			(uuid "60b873c2-037a-475b-9440-040a7ff95183")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "U6")
 					(unit 2)
@@ -23242,7 +24022,7 @@
 			(uuid "23d8d622-9d4c-4aa5-9dc4-f94e23585c9e")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C26")
 					(unit 1)
@@ -23355,7 +24135,7 @@
 			(uuid "19d609f1-a6b9-417f-8aa0-5a98d646743c")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R31")
 					(unit 1)
@@ -23578,7 +24358,7 @@
 			(uuid "48925160-4f26-437e-89da-f113c312ae47")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C7")
 					(unit 1)
@@ -23650,7 +24430,7 @@
 			(uuid "b9d3846d-ab86-4b4e-abd2-f375492df6db")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR043")
 					(unit 1)
@@ -23830,7 +24610,7 @@
 			(uuid "a06d6b61-19ff-4e6e-8033-f89b2b492401")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR035")
 					(unit 1)
@@ -24120,7 +24900,7 @@
 			(uuid "a270e4f4-1bca-43d5-9764-170dd72d6bb1")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR08")
 					(unit 1)
@@ -24193,7 +24973,7 @@
 			(uuid "77e71308-798a-46bf-b59e-4ff06bb6a071")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "#PWR020")
 					(unit 1)
@@ -24299,7 +25079,7 @@
 			(uuid "aced0c89-a08b-4283-86c2-550297b046e0")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "RV5")
 					(unit 1)
@@ -24479,7 +25259,7 @@
 			(uuid "7a33fdc7-adc2-4e12-adeb-88c2b423c3b8")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "R10")
 					(unit 1)
@@ -24709,7 +25489,7 @@
 			(uuid "ec5650b0-354c-4ef7-8041-c3212ef6c6cf")
 		)
 		(instances
-			(project ""
+			(project "lichen-stereo-klein-filter-board"
 				(path "/33730a50-d570-4e81-8d4c-8c7281bac9f5"
 					(reference "C25")
 					(unit 1)

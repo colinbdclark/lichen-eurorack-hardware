@@ -302,7 +302,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100nF Film"
+			(property "Value" "100nF"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -311,7 +311,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_4ms_Capacitor:C_1210"
+			(property "Footprint" "Lichen:C_1210"
 				(at -2.54 -14.478 0)
 				(effects
 					(font
@@ -461,34 +461,44 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lichen:10K_Potentiometer_Dual_Gang_Alpha_RD902F"
-			(pin_names
-				(offset 1.016)
+		(symbol "Lichen:1k_0603"
+			(pin_numbers
 				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RV8"
-				(at -1.27 -7.112 90)
+			(property "Reference" "R"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "B10k_Dual"
-				(at 1.27 -7.112 90)
+			(property "Value" "1K"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-				(at 6.35 -1.905 0)
+			(property "Footprint" "Lichen:R_0603"
+				(at -2.54 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
+				(at 3.302 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -496,8 +506,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-				(at 6.35 -1.905 0)
+			(property "Description" "1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+				(at 1.016 -20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -505,7 +515,45 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual potentiometer"
+			(property "Manufacturer" "UNI-ROYAL"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603WAF1001T5E"
+				(at -2.54 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "1K"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C21190"
+				(at 1.27 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1k_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -514,8 +562,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Alpha"
-				(at 0 0 90)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -523,8 +571,123 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "RD90F-40"
-				(at 0 0 90)
+			(symbol "1k_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1k_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -2.54 -1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Lichen:Potentiometer_Alpha_RD901_Eurorack"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.thonk.co.uk/wp-content/uploads/2017/12/Alpha-9mm-Vertical-T18-RD901F-40-15K-B50K-0057.pdf"
+				(at 1.016 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Alpha RD901 Vertical Snap-In Potentiometer"
+				(at -0.254 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RD901F-40"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Taiwan Alpha Electronic"
+				(at 0.508 -11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -550,7 +713,207 @@
 					(hide yes)
 				)
 			)
-			(symbol "10K_Potentiometer_Dual_Gang_Alpha_RD902F_0_1"
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(text "CCW"
+					(at -1.778 2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right)
+					)
+				)
+				(text "CW"
+					(at -1.778 -2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lichen:R_Potentiometer_Dual"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -6.604 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.858 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
+				(at 6.858 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
+				(at 6.604 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual potentiometer"
+				(at -0.254 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Alpha"
+				(at 0 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RD90F-40"
+				(at 0 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Dual_0_1"
 				(rectangle
 					(start -8.89 -1.524)
 					(end -3.81 -3.556)
@@ -814,7 +1177,39 @@
 					)
 				)
 			)
-			(symbol "10K_Potentiometer_Dual_Gang_Alpha_RD902F_1_1"
+			(symbol "R_Potentiometer_Dual_1_1"
+				(text "CCW"
+					(at -8.128 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CW"
+					(at -4.318 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CCW"
+					(at 4.572 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CW"
+					(at 8.382 -4.318 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
 				(pin passive line
 					(at -10.16 -2.54 0)
 					(length 1.27)
@@ -916,371 +1311,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:1k_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R8"
-				(at 6.35 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1k_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0603"
-				(at -2.54 -16.002 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
-				(at 3.302 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1K, 1%, 1/10W, 0603"
-				(at 1.016 -20.066 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "0603WAF1001T5E"
-				(at -2.54 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "1k"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C21190"
-				(at 1.27 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1k_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1k_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1k_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lichen:R_Potentiometer"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV1"
-				(at -2.54 -1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "B10K"
-				(at -2.54 1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Lichen:Potentiometer_Alpha_RD901_Eurorack"
-				(at 0 -18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.thonk.co.uk/wp-content/uploads/2017/12/Alpha-9mm-Vertical-T18-RD901F-40-15K-B50K-0057.pdf"
-				(at 1.016 -16.002 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Alpha RD901 Vertical Snap-In Potentiometer"
-				(at -0.254 12.446 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RD901F-40"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Taiwan Alpha Electronic"
-				(at 0.508 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(text "CCW"
-					(at -1.778 2.54 900)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(justify right)
-					)
-				)
-				(text "CW"
-					(at -1.778 -2.54 900)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(justify left)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2607,7 +2637,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lichen:10K_Potentiometer_Dual_Gang_Alpha_RD902F")
+		(lib_id "Lichen:R_Potentiometer_Dual")
 		(at 128.27 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2623,7 +2653,7 @@
 				)
 			)
 		)
-		(property "Value" "B10k_Dual"
+		(property "Value" "B10K"
 			(at 135.128 60.198 0)
 			(effects
 				(font
@@ -2632,7 +2662,7 @@
 			)
 		)
 		(property "Footprint" "Lichen:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
-			(at 134.62 56.515 0)
+			(at 135.128 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.thonk.co.uk/shop/alpha-9mm-pots-vert-t18-dual-gang/"
-			(at 134.62 56.515 0)
+			(at 134.874 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2680,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at 128.27 54.61 0)
+			(at 128.016 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2689,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
-			(at 128.27 54.61 90)
+			(at 128.27 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2698,7 @@
 			)
 		)
 		(property "Part Number" "RD90F-40"
-			(at 128.27 54.61 90)
+			(at 128.27 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3551,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k_0603"
+		(property "Value" "1K"
 			(at 156.21 101.6 90)
 			(effects
 				(font
@@ -3540,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
 			(at 162.052 78.74 0)
 			(effects
 				(font
@@ -3549,7 +3579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K, 1%, 1/10W, 0603"
+		(property "Description" "1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 159.766 81.534 0)
 			(effects
 				(font
@@ -3578,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "1k"
+		(property "Display" "1K"
 			(at 156.21 102.8699 0)
 			(effects
 				(font
@@ -3631,7 +3661,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k_0603"
+		(property "Value" "1K"
 			(at 116.84 101.6 90)
 			(effects
 				(font
@@ -3650,7 +3680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
 			(at 122.682 78.74 0)
 			(effects
 				(font
@@ -3659,7 +3689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K, 1%, 1/10W, 0603"
+		(property "Description" "1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 120.396 81.534 0)
 			(effects
 				(font
@@ -3688,7 +3718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display" "1k"
+		(property "Display" "1K"
 			(at 116.84 102.8699 0)
 			(effects
 				(font
